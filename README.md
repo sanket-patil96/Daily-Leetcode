@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0012-integer-to-roman) |
 | [0022-generate-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0022-generate-parentheses) |
+| [0071-simplify-path](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0071-simplify-path) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -34,4 +35,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0012-integer-to-roman) |
+## Stack
+|  |
+| ------- |
+| [0071-simplify-path](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0071-simplify-path) |
 <!---LeetCode Topics End-->
