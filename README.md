@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0071-simplify-path) |
 | [0151-reverse-words-in-a-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0227-basic-calculator-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0227-basic-calculator-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -60,10 +61,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0012-integer-to-roman) |
+| [0227-basic-calculator-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0227-basic-calculator-ii) |
 ## Stack
 |  |
 | ------- |
 | [0071-simplify-path](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0071-simplify-path) |
+| [0227-basic-calculator-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0227-basic-calculator-ii) |
 ## Binary Search
 |  |
 | ------- |
