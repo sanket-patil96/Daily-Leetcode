@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -100,4 +101,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 <!---LeetCode Topics End-->
