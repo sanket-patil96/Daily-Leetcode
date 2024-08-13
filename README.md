@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0040-combination-sum-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0040-combination-sum-ii) |
 | [0048-rotate-image](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0022-generate-parentheses) |
+| [0040-combination-sum-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0040-combination-sum-ii) |
 ## Hash Table
 |  |
 | ------- |
