@@ -9,24 +9,25 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        ListNode* slow = head;
-        ListNode* fast = head;
+        // method O(n) time
+        // we use fast & slow pointer , initially both point to head, then slow moves 1 node &
+        // fast moved 2 nodes eventually both meet on one node which create cycle if there is cycle
 
-        if(!head || head->next == NULL)
-            return false;
+        ListNode *slow = head;
+        ListNode *fast = head;
 
-        while(fast != NULL && fast->next != NULL) {
+        // first condition is for even length, 2nd condition for odd length
+        while(fast != NULL && fast->next != NULL)
+        {
             slow = slow->next;
-            fast = fast->next->next;
+            fast = fast->next->next;        
 
-            // check after moving them atleast 1 time coz initially they are on same head node
+            // check after moving pointers coz initially they are on same node
             if(slow == fast)
                 return true;
         }
 
-        // if(fast == NULL || fast->next == NULL)
-        //     return false;
-
+        // if fast reaches null means there is no cycle
         return false;
     }
 };
