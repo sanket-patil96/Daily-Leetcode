@@ -9,23 +9,24 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        // we try to use set of nodes -> next pointer storing in it if it appears again means 
-        // loop detecter
+        ListNode* slow = head;
+        ListNode* fast = head;
 
-        unordered_set<ListNode *> s;
+        if(!head || head->next == NULL)
+            return false;
 
-        ListNode *curr = head;
-        while(curr != NULL)
-        {
-            // if we find same pointer in set already present, then return true
-            if(s.find(curr) != s.end()) 
+        while(fast != NULL && fast->next != NULL) {
+            slow = slow->next;
+            fast = fast->next->next;
+
+            // check after moving them atleast 1 time coz initially they are on same head node
+            if(slow == fast)
                 return true;
-
-            s.insert(curr);
-            curr = curr->next;
         }
 
-        // the loop will only stop when curr becomes null means no loop
+        // if(fast == NULL || fast->next == NULL)
+        //     return false;
+
         return false;
     }
 };
