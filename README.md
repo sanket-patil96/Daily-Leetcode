@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0048-rotate-image) |
 | [0168-excel-sheet-column-title](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0227-basic-calculator-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0231-power-of-two](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0231-power-of-two) |
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Stack
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0476-number-complement) |
@@ -199,4 +201,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0203-remove-linked-list-elements](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0203-remove-linked-list-elements) |
+| [0231-power-of-two](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
