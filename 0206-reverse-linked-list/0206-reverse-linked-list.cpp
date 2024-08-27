@@ -10,29 +10,16 @@
  */
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        // if head is null or head is only node then return head as it is
-        if(head == NULL || head->next == NULL)
-            return head;
+    // using recursion
+    ListNode* reverseList(ListNode* head, ListNode *next = NULL, ListNode *prev = NULL) {
+        if(!head)
+            return prev;
 
-        // we store previous node & next node pointer
-        // use this node to store next of curr before changing it
-        ListNode *prevNode = NULL;
-        ListNode *next = NULL;      
-        ListNode *curr = head;
-        
+        next = head->next;
+        head->next = prev;
+        prev = head;
+        head = next;
 
-        while(curr != NULL) {
-            next = curr->next;
-            curr->next = prevNode;  // swap nodes
-            
-            prevNode = curr;
-
-            // we changed next pointer so its now stored in next node
-            curr = next;
-        }
-        // at this point we are at NULL & prevNode at last node 
-        // so return last node as head
-        return prevNode;
+        return reverseList(head, next, prev);
     }
 };
