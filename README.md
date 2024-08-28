@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0018-4sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0141-linked-list-cycle) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0092-reverse-linked-list-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0092-reverse-linked-list-ii) |
