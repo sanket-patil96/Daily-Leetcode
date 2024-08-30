@@ -16,10 +16,9 @@ public:
             return head;
 
         // create min heap
-        priority_queue<ListNode*, vector<ListNode*>, function<bool(ListNode*, ListNode*)>>
-            pq([](ListNode* a, ListNode* b) { 
-                return a->val > b->val; 
-            });
+        priority_queue<ListNode*, vector<ListNode*>, function<bool(ListNode*, ListNode*)>> pq([](ListNode* a, ListNode* b) { 
+            return a->val > b->val; 
+        });
 
         for (ListNode* curr = head; curr; curr = curr->next)
             pq.push(curr);
@@ -30,7 +29,7 @@ public:
         ListNode *newHead = curr;
 
         while (!pq.empty()) {
-            cout << pq.top()->val << " ";
+            // cout << pq.top()->val << " ";
             curr->next = pq.top();
             curr = curr->next;
             pq.pop();
