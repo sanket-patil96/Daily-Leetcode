@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0035-search-insert-position) |
 | [0040-combination-sum-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0040-combination-sum-ii) |
 | [0048-rotate-image](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0049-group-anagrams) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0035-search-insert-position) |
 | [0162-find-peak-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
