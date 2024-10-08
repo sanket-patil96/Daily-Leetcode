@@ -1,22 +1,16 @@
 class Solution {
 public:
-    int minSwaps(string s) {
-        stack<char> stack;
-        int unbalanced = 0;
-        
-        for (int i = 0; i < s.size(); i++) {
+     int minSwaps (string s) {
+        int stack_size = 0;
+        for (int i = 0; i < s.length(); i++) {
             char ch = s[i];
-            // If an opening bracket is encountered, push it in the stack.
             if (ch == '[')
-                stack.push(ch);
+                stack_size++;
             else {
-                // If the stack is not empty, pop it.
-                if (!stack.empty()) stack.pop();
-                // Otherwise increase the count of unbalanced brackets.
-                else
-                    unbalanced++;
+                if (stack_size > 0)
+                    stack_size--;
             }
         }
-        return (unbalanced + 1) / 2;
+        return (stack_size + 1) / 2;
     }
 };
