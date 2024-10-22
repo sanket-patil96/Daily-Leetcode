@@ -12,12 +12,10 @@
 class Solution {
 public:
     long long kthLargestLevelSum(TreeNode* root, int k) {
-        // k size min-heap, so top will contain kth largest sum
-        priority_queue<long long, vector<long long>, greater<long long>> pq;
-
-        queue<TreeNode *> q;
+        vector<long long> v;
+        v.push_back(root->val);     // level1 sum, which has only root element
+        queue<TreeNode*> q;
         q.push(root);
-        pq.push(root->val);         // sum of first level, which consist only root
 
         while(!q.empty()) {
             int size = q.size();
@@ -38,25 +36,17 @@ public:
                 q.pop();
             }
 
-
-            if(pq.size() < k) {
-                // sum should not be repeted!
-                // if no childs then sum will be 0, so don't add 0 also
-                if(pq.size() > 0 && sum != 0){
-                    pq.push(sum);
-                }
-            }
-            else {
-                if(pq.top() < sum) {
-                    pq.pop();
-                    pq.push(sum);
-                }
-            }   
+            if(sum != 0)
+                v.push_back(sum);
         }
 
-        if(pq.size() < k)
+        // if there are no k items present in array
+        if(v.size() < k)
             return -1;
 
-        return pq.top();
+        sort(v.begin(), v.end(), greater<long long>());
+
+
+        return v[k-1];
     }
 };
