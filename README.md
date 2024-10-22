@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0647-palindromic-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0647-palindromic-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0168-excel-sheet-column-title](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0227-basic-calculator-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0647-palindromic-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0647-palindromic-substrings) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0338-counting-bits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0338-counting-bits) |
+| [0647-palindromic-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0647-palindromic-substrings) |
 | [1236-n-th-tribonacci-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Backtracking
 |  |
