@@ -1,6 +1,6 @@
 class Solution {
 public:
-// don't know how!!!
+    // using binary search
     int mySqrt(int x) {
         int l = 0, r = x;
         while(l < r){
