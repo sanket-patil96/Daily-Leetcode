@@ -1,47 +1,47 @@
 class Solution {
 public:
 
-    int lowerSearch(vector<int>&nums, int s, int limit, int target) {
-        int l = s;
-        int h = nums.size()-1;
-        int res = -1; 
+    // int lowerSearch(vector<int>&nums, int s, int limit, int target) {
+    //     int l = s;
+    //     int h = nums.size()-1;
+    //     int res = -1; 
 
-        while(l <= h) {
-            int mid = l + (h-l)/2;
+    //     while(l <= h) {
+    //         int mid = l + (h-l)/2;
 
-            if(nums[mid] < target)
-                l = mid+1;
-            else if(nums[mid] <= limit){
-                res = mid;
-                h = mid-1;
-            }
-            else 
-                h = mid-1;
-        }
+    //         if(nums[mid] < target)
+    //             l = mid+1;
+    //         else if(nums[mid] <= limit){
+    //             res = mid;
+    //             h = mid-1;
+    //         }
+    //         else 
+    //             h = mid-1;
+    //     }
 
-        return res;
-    }
+    //     return res;
+    // }
 
-    int upperSearch(vector<int>&nums, int s, int min, int target) {
-        int l = s;
-        int h = nums.size()-1;
-        int res = -1; 
+    // int upperSearch(vector<int>&nums, int s, int min, int target) {
+    //     int l = s;
+    //     int h = nums.size()-1;
+    //     int res = -1; 
 
-        while(l <= h) {
-            int mid = l + (h-l)/2;
+    //     while(l <= h) {
+    //         int mid = l + (h-l)/2;
 
-            if(nums[mid] > target)
-                h = mid-1;
-            else if(nums[mid] >= min) {
-                res = mid;
-                l = mid+1;
-            }
-            else 
-                l = mid+1;
-        }
+    //         if(nums[mid] > target)
+    //             h = mid-1;
+    //         else if(nums[mid] >= min) {
+    //             res = mid;
+    //             l = mid+1;
+    //         }
+    //         else 
+    //             l = mid+1;
+    //     }
 
-        return res;
-    }
+    //     return res;
+    // }
 
     long long countFairPairs(vector<int>& nums, int lower, int upper) {
         // first sort the array
@@ -56,11 +56,11 @@ public:
           
         // we want pairs so don't go till last index
         for(int i = 0; i < n-1; i++) {
-            int lowerInd = lowerSearch(nums, i+1, upper-nums[i], lower-nums[i]);
-            int upperInd = upperSearch(nums, i+1, lower-nums[i], upper-nums[i]);
+            // using stl
+            auto lowerInd = lower_bound(nums.begin() + i + 1, nums.end(), lower - nums[i]);
+            auto upperInd = upper_bound(nums.begin() + i + 1, nums.end(), upper - nums[i]);
             
-            if(upperInd != -1 && lowerInd != -1)
-                cnt += (upperInd-lowerInd + 1);
+            cnt += (upperInd-lowerInd);
         }
 
         return cnt;
