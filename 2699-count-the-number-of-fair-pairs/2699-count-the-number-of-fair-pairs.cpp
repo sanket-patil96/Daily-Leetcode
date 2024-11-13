@@ -48,7 +48,7 @@ public:
         // for each i start from i+1 and find the first(minimun after i) index that satisfy the criteria of addition >= lower && addition <= upper category
         // for each i start from i+1 and find the last(from end) index that satisfy the criteria of addition <= lower && addition >= upper category
         // add both counts to result count, & at last return it
-        
+
         int n = nums.size();
         sort(nums.begin(), nums.end());
 
@@ -58,7 +58,7 @@ public:
         for(int i = 0; i < n-1; i++) {
             int lowerInd = lowerSearch(nums, i+1, upper-nums[i], lower-nums[i]);
             int upperInd = upperSearch(nums, i+1, lower-nums[i], upper-nums[i]);
-            cout << lowerInd << " " << upperInd << endl;
+            
             if(upperInd != -1 && lowerInd != -1)
                 cnt += (upperInd-lowerInd + 1);
         }
