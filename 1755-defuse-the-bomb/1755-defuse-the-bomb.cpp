@@ -12,9 +12,9 @@ public:
             int sum = 0;
             for(int i = 1; i <= k; i++)
                 sum += code[i];
-            // cout << sum;
 
             defuse[0] = sum;
+            
             for(int i = 1; i < n; i++) {
                 sum -= code[i];
                 sum += code[(i+k)%n];       // next element of new window
@@ -33,18 +33,13 @@ public:
             
             defuse[0] = sum;
             
-            sum -= q.front();       // remove the last element that will go out of window for next element
-            q.pop();
-            sum += code[0];         // add the current number as it will be in next window
-            q.push(code[0]);
-            
             for(int i = 1; i < n; i++) {
-                defuse[i] = sum;
-
-                sum -= q.front();
+                sum -= q.front();          // remove the last element that will go out of window for next element
                 q.pop();
-                sum += code[i];
-                q.push(code[i]);
+                sum += code[i-1];         // add the previous number as it will be in current window
+                q.push(code[i-1]);
+
+                defuse[i] = sum;
             }
         }
 
