@@ -5,47 +5,50 @@ public:
         // we can solve this problem by using the Topological Sort Algorithm, where the 
         // independant task should executed first.
 
-        // first we get the dependancies of each task 
-        vector<int> dependancy(N, 0);                    // it show current taks dependant on any task or not
-        unordered_map<int, vector<int>> preTask;   // it shows current task is prerequisit of which tasks
-	    
+        // 2nd approach:
+        // make it as graph representation to directly use Topological SORT
+        vector<vector<int>> adj(N);
+
+
+        // mark dependancies
         int P = prerequisites.size();
-	    for(int i = 0; i < P; i++) {
-	        int task = prerequisites[i][0];
+        for(int i = 0; i < P; i++) {
+            int task = prerequisites[i][0];
 	        int dependantOn = prerequisites[i][1];
-	        
-	        dependancy[task] = dependancy[task]+1;
-	        preTask[dependantOn].push_back(task);
-	    }
-	    
-	    
-	    // now we have to execute tasks that have 0 dependancy, push then in a queue
-	    queue<int> q;
-	    for(int i = 0; i < N; i++)
-	        if(dependancy[i] == 0)
-	            q.push(i);
-	            
-	   
-	   // now execute 0 dependancy tasks
-	   int completedTasks = 0;
-	   
-	   while(!q.empty()) {
-	        int task = q.front();
-	        q.pop();
-	        completedTasks++;
-	        
-	        // now check if any task was dependant on current task & remove dependancy
-	        if(preTask.count(task)) {
-	            for(auto i: preTask[task]) {
-	                dependancy[i]--;
-	                
-	               // if the dependant task has 0 dependancies remain then push in queue for execution
-	                if(dependancy[i] == 0)
-	                    q.push(i);
-	            }
-	        }
-	   }
-	    
-	   return completedTasks == N;
+
+            adj[task].push_back(dependantOn);
+        }
+
+
+        // get indegree 
+        vector<int> indegree(N);
+        for(auto u: adj)
+            for(auto v: u)
+                indegree[v]++;
+        
+
+        // get 0 indegree tasks in queue
+        queue<int> q;
+        for(int i = 0; i < N; i++)
+            if(indegree[i] == 0)
+                q.push(i);
+
+
+        int completedTasks = 0;
+        
+        while(!q.empty()) {
+            int node = q.front();
+            q.pop();
+            completedTasks++;
+
+            // remove dependancy
+            for(auto v: adj[node]) {
+                indegree[v]--;
+                if(indegree[v] == 0)
+                    q.push(v);
+            }
+        }
+
+        return completedTasks == N;
     }
 };
