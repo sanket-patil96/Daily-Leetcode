@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [1300-critical-connections-in-a-network](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Breadth-First Search
 |  |
@@ -373,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0207-course-schedule) |
+| [1300-critical-connections-in-a-network](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Shortest Path
 |  |
@@ -386,4 +388,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0207-course-schedule) |
+## Biconnected Component
+|  |
+| ------- |
+| [1300-critical-connections-in-a-network](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1300-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
