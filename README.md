@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1300-critical-connections-in-a-network](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1492-time-needed-to-inform-all-employees](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1036-rotting-oranges) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1492-time-needed-to-inform-all-employees](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -285,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1492-time-needed-to-inform-all-employees](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Design
