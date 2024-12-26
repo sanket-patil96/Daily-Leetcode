@@ -2,7 +2,7 @@ class Solution {
 public:
 
     
-    int dijkstra(int src, int n, vector<vector<pair<int, int>>> adj ,vector<int> &vis, int currDist, int maxDist) {
+    int dijkstra(int src, int n, vector<vector<pair<int, int>>> adj, int maxDist) {
         // we require min heap which stores {dist, neighbour} (sorting accoding dist)
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
         vector<int> dist(n, INT_MAX);
@@ -63,8 +63,7 @@ public:
         int minVisitedCities = INT_MAX;
         
         for(int i = 0; i < n; i++) {
-            vector<int> vis(n);
-            int visitedCities = dijkstra(i, n, adj, vis, 0, distanceThreshold);
+            int visitedCities = dijkstra(i, n, adj, distanceThreshold);
             if(visitedCities <= minVisitedCities) {
                 minVisitedCities = visitedCities;
                 ansCity = i;
