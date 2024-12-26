@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0494-target-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0338-counting-bits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0338-counting-bits) |
+| [0494-target-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0494-target-sum) |
 | [0647-palindromic-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0647-palindromic-substrings) |
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
 | [1236-n-th-tribonacci-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1236-n-th-tribonacci-number) |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0022-generate-parentheses) |
 | [0040-combination-sum-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0040-combination-sum-ii) |
+| [0494-target-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 ## Hash Table
 |  |
