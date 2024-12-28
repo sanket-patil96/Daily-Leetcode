@@ -6,21 +6,11 @@ public:
         return parent[node] = findUParent(parent[node], parent);
     }
 
-    void findUnion(int u, int v, vector<int> &rank, vector<int> &parent) {
+    void findUnion(int u, int v, vector<int> &parent) {
         int ultp_u = findUParent(u, parent);
         int ultp_v = findUParent(v, parent);
 
-        if(ultp_u == ultp_v)
-            return;
-
-        if(rank[ultp_u] < rank[ultp_v]) 
-            parent[ultp_u] = ultp_v;
-        else if(rank[ultp_u] > rank[ultp_v])
-            parent[ultp_v] = ultp_u;
-        else {
-            parent[ultp_v] = ultp_u;
-            rank[ultp_u]++;
-        }
+        parent[ultp_v] = ultp_u;
     }
 
 
@@ -33,10 +23,9 @@ public:
         for(int i = 0; i < n; i++)
             parent[i] = i;
 
-        vector<int> rank(n, 0);
 
         for(auto it: edges)
-            findUnion(it[0], it[1], rank, parent);
+            findUnion(it[0], it[1], parent);
 
         return (findUParent(source, parent) == findUParent(destination, parent));
     }
