@@ -1,40 +1,43 @@
 class Solution {
 public:
-    void dfs(int node, vector<bool> &vis, vector<vector<int>> &adj) {
-        vis[node] = true;
+    int findUParent(int node, vector<int> &parent) {
+        if(node == parent[node])
+            return node;
+        return parent[node] = findUParent(parent[node], parent);
+    }
 
-        for(auto v: adj[node]) {
-            if(!vis[v])
-                dfs(v, vis, adj);
+    void findUnion(int u, int v, vector<int> &rank, vector<int> &parent) {
+        int ultp_u = findUParent(u, parent);
+        int ultp_v = findUParent(v, parent);
+
+        if(ultp_u == ultp_v)
+            return;
+
+        if(rank[ultp_u] < rank[ultp_v]) 
+            parent[ultp_u] = ultp_v;
+        else if(rank[ultp_u] > rank[ultp_v])
+            parent[ultp_v] = ultp_u;
+        else {
+            parent[ultp_v] = ultp_u;
+            rank[ultp_u]++;
         }
     }
 
+
+
     bool validPath(int n, vector<vector<int>>& edges, int source, int destination) {
-        // we can use DFS
-        // if both found in same component then there is path from soruce to destination else false
-        // create a adjacency list
-        vector<vector<int>> adj(n);         // bidirectional
+        // now try using Disjoint set
 
-        for(auto i: edges) {
-            adj[i[0]].push_back(i[1]);
-            adj[i[1]].push_back(i[0]);
-        }
+        // we find ultimate parents for all edges
+        vector<int> parent(n);
+        for(int i = 0; i < n; i++)
+            parent[i] = i;
 
-        vector<bool> vis(n, false);
-        for(int i = 0; i < n; i++) {
-            if(!vis[i]) {
-                dfs(i, vis, adj);
+        vector<int> rank(n, 0);
 
-                if(vis[source] && vis[destination])
-                    return true;
+        for(auto it: edges)
+            findUnion(it[0], it[1], rank, parent);
 
-                // if any one of them got visited then there is no path that joints both
-                if(vis[source] || vis[destination])
-                    return false;
-            }
-        }
-
-
-        return true;
+        return (findUParent(source, parent) == findUParent(destination, parent));
     }
 };
