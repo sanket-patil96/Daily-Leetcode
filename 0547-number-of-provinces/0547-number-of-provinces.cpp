@@ -27,20 +27,19 @@ public:
         for(int i = 0; i < n; i++)
             parent[i] = i;
 
+        int ans = 0;
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
                 if(i == j)      continue;
 
-                if(isConnected[i][j] == 1)
+                if(isConnected[i][j] == 1 && findUParent(i) != findUParent(j)) {
                     unionSet(i, j);
+                    ans++;
+                }
             }
         }
 
-        // now find how many different ultimate parents are there
-        unordered_set<int> s;
-        for(int i = 0; i < n; i++)
-            s.insert(findUParent(i));
-
-        return s.size();
+        // from total cities - connected clusters
+        return n-ans;
     }
 };
