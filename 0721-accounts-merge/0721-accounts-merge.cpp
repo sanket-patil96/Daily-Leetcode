@@ -19,7 +19,6 @@ public:
         int n = accounts.size();
         for(int i = 0; i < n; i++) {
             // put the first mail & start from 2nd ind
-            // adj[i][1] = {};
             for(int j = 2; j < accounts[i].size(); j++) {
                 adj[accounts[i][1]].push_back(accounts[i][j]);
                 adj[accounts[i][j]].push_back(accounts[i][1]);
@@ -34,17 +33,16 @@ public:
         for(int i = 0; i < n; i++) {
             // as per format store the name first, then sorted mails
             vector<string> mails;
+            mails.push_back(accounts[i][0]);        // add name
+
             if(!vis.count(accounts[i][1])) {
                 dfs(accounts[i][1], vis, mails, adj);
+                sort(mails.begin()+1, mails.end());
 
-                sort(mails.begin(), mails.end());
-                
-                // move sorted entry at end 
-                ans.push_back({accounts[i][0]});        // add name
-                ans.back().insert(ans.back().end(), mails.begin(), mails.end());
+                // push sorted entry at end 
+                ans.push_back(mails);
             }
         }
-
 
         return ans;
     }
