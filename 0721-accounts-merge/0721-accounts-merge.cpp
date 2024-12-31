@@ -1,47 +1,97 @@
-class Solution {
-public:
-    void dfs(string node, unordered_set<string> &vis, vector<string> &mails, unordered_map<string, vector<string>> &adj) {
-        vis.insert(node);
-        mails.push_back(node);
+class DSU {
+    public:
+    vector<int> parent;
+    vector<int> size;
 
-        // visit adjacents mails of the current mail
-        for(auto i: adj[node]) {
-            if(!vis.count(i))
-                dfs(i, vis, mails, adj);
+    DSU(int n) {
+        parent.resize(n);
+        size.resize(n, 0);
+
+        for(int i = 0; i < n; i++) {
+            parent[i] = i;
+            size[i] = 1;
         }
     }
 
-    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {      
-        // hint: for every pair of emails of same account, draw an edge between those  emails(undirected graph)
-        // at last  traverse from all accounts first  mails & push the entire connected mails to its current account name
+    int findUPar(int node) {
+        if(node == parent[node])
+            return node;
+        
+        return parent[node] = findUPar(parent[node]);
+    }
 
-        unordered_map<string, vector<string>> adj;
+    void unionBySize(int u, int v) {
+        int ult_pu = findUPar(u);
+        int ult_pv = findUPar(v);
+
+        if(ult_pu == ult_pv)
+            return;
+
+        if(size[ult_pu] < size[ult_pv]) {
+            parent[ult_pu] = ult_pv;
+            size[ult_pv] += size[ult_pu];
+        }
+        else {
+            parent[ult_pv] = ult_pu;
+            size[ult_pu] += size[ult_pv];
+        }
+    }
+};
+
+class Solution {
+public:
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        // approach 2: DSU
+        // 1. Traverse over each account, and for each account, traverse over all of its emails. If we see an email for the first time, then set the group of the email as the index of the current account in emailGroup .
+        // 2. Otherwise, if the email has already been seen in another account, then we will union the current group (i) and the group the current email belongs to (emailGroup[email]).
+        // 3. After traversing over every account and merging the accounts that share a common email, we will now traverse over every email once more. Each email will be added to a map (components) where the key is the email's representative, and the value is a list of emails with that representative.
+        // 4. Traverse over components, here the keys are the group indices and the value is the list of emails belonging to this group (person). Since the emails must be "in sorted order" we will sort the list of emails for each group. Lastly, we can get the account name using the accountList[group][0]. In accordance with the instructions, we will insert this name at the beginning of the email list.
+        // 5. Store the list created in step 4 in our final result (mergedAccount).
+        // Time complexity: O(NKlogNK)
+        // Sace complexity: O(NK)
+
         int n = accounts.size();
+        DSU ds(n);
+
+        unordered_map<string, int> mailToNode;
+
         for(int i = 0; i < n; i++) {
-            // put the first mail & start from 2nd ind
-            for(int j = 2; j < accounts[i].size(); j++) {
-                adj[accounts[i][1]].push_back(accounts[i][j]);
-                adj[accounts[i][j]].push_back(accounts[i][1]);
+            // first one contains name so start j from 1
+            for(int j = 1; j < accounts[i].size(); j++) {
+                string mail = accounts[i][j];
+
+                if(!mailToNode.count(mail)) 
+                    mailToNode[mail] = i;
+                
+                // else union the current account with existing account from mapping
+                else {
+                    ds.unionBySize(i, mailToNode[mail]);
+                }
             }
         }
 
-        // visited array for mails
-        unordered_set<string> vis;
+        vector<string> mergedMails[n];
+
+        for(auto i: mailToNode) {
+            string mail = i.first;
+            int node = ds.findUPar(i.second);       // always get the ultimate parent
+            mergedMails[node].push_back(mail);
+        }
+
         vector<vector<string>> ans;
 
-        // now perform dfs from each account's first mail
         for(int i = 0; i < n; i++) {
-            // as per format store the name first, then sorted mails
-            vector<string> mails;
-            mails.push_back(accounts[i][0]);        // add name
+            // if it doesn't have any mails means its already merged to other node
+            if(mergedMails[i].size() == 0)      continue;       
 
-            if(!vis.count(accounts[i][1])) {
-                dfs(accounts[i][1], vis, mails, adj);
-                sort(mails.begin()+1, mails.end());
+            sort(mergedMails[i].begin(), mergedMails[i].end());
 
-                // push sorted entry at end 
-                ans.push_back(mails);
-            }
+            vector<string> temp;
+            temp.push_back(accounts[i][0]);         // push the account name first
+            for(auto i: mergedMails[i])
+                temp.push_back(i);
+
+            ans.push_back(temp);
         }
 
         return ans;
