@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1036-rotting-oranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1036-rotting-oranges) |
 | [1063-best-sightseeing-pair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1063-best-sightseeing-pair) |
+| [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0200-number-of-islands) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1300-critical-connections-in-a-network](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -284,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1492-time-needed-to-inform-all-employees) |
@@ -298,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2121-find-if-path-exists-in-graph](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Monotonic Stack
