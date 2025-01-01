@@ -25,25 +25,15 @@ public:
 
         int ans = 0;
 
-        // for first column 
-        for(int i = 0; i < n; i++) 
-            if(grid[i][0] == 1)
-                dfs(i, 0, n, m, grid);
-        
-        // for first row
-        for(int i = 0; i < m; i++) 
-            if(grid[0][i] == 1)
-                dfs(0, i, n, m, grid);
-
-        // for last column 
-        for(int i = 0; i < n; i++)
-            if(grid[i][m-1] == 1)
-                dfs(i, m-1, n, m, grid);
-        
-        // for last row 
-        for(int i = 0; i < m; i++) 
-            if(grid[n-1][i] == 1)
-                dfs(n-1, i, n, m, grid);
+        // mark boundry connected cells as 2 & flood fill till land possible
+        for (int i = 0; i < n; i++) {
+            if (grid[i][0] == 1) dfs(i, 0, n, m, grid);         // Left boundary
+            if (grid[i][m - 1] == 1) dfs(i, m - 1, n, m, grid); // Right boundary
+        }
+        for (int j = 0; j < m; j++) {
+            if (grid[0][j] == 1) dfs(0, j, n, m, grid);         // Top boundary
+            if (grid[n - 1][j] == 1) dfs(n - 1, j, n, m, grid); // Bottom boundary
+        }
         
         
         // check cells which has 1 , means boundry cells doesn't reach to them
