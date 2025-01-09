@@ -15,9 +15,13 @@ public:
 
         int n = grid.size();
 
-        // base case
+        // base cases
         if(grid[0][0] == 1)
             return -1;
+
+        // if we already at destination, ex: [[0]]
+        if(0 == n-1)
+            return 1;
 
         queue<pair<int, int>> q;
         q.push({0, 0});
@@ -35,15 +39,15 @@ public:
             for(int j = 0; j < size; j++) {
                 pair<int, int> cell = q.front();
                 q.pop();
-
-                // this ensures that this is shortest path, coz this cell is first to reach here in this length
-                if(cell.first == n-1 && cell.second == n-1)
-                    return len;
                 
                 for(int i = 0; i < 8; i++) {
                     int newR = cell.first+row[i];
                     int newC = cell.second+col[i];
                     if(isSafe(newR, newC, n, grid)) {
+                        // this ensures that this is shortest path, coz this cell is first to reach here in this length
+                        if(newR == n-1 && newC == n-1)
+                            return len+1;       // +1 for current cell, we haven't add it, its done outside level
+
                         grid[newR][newC] = 1;       // mark as visited
                         q.push({newR, newC});
                     }
