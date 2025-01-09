@@ -8,8 +8,10 @@ public:
     }
 
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
-        // we use simple single source BFS technique
-        // mark 1 for visited cells, first one to reach destination is shortest path
+        // some improvements from previous approach, time & space: O(n^2)
+        // we use simple single source BFS technique that visit cells 'level-by-level'
+        // the first one to visit destination will be the shortest path, because of 'level-by-level' BFS
+        // mark 1 for visited cells as soon as we see it
 
         int n = grid.size();
 
@@ -17,32 +19,42 @@ public:
         if(grid[0][0] == 1)
             return -1;
 
-        queue<pair<int, pair<int, int>>> q;
-        q.push({1, {0, 0}});
+        queue<pair<int, int>> q;
+        q.push({0, 0});
         grid[0][0] = 1;     // mark as visited
-        int minLen = INT_MAX;
+        int len = 1;        // coz currently we have source in path so length = 1
+
+        // visit neighbours, (top-left, up, down, top-right, right, bottom-right, bottom, bottom-left, left)
+        int row[] = {-1, -1, 0, 1, 1, 1, 0, -1};
+        int col[] = {0, 1, 1, 1, 0, -1, -1, -1};
 
         while(!q.empty()) {
-            pair<int, int> cell = q.front().second;
-            int len = q.front().first;
-            q.pop();
 
-            if(cell.first == n-1 && cell.second == n-1)
-                minLen = min(minLen, len);
+            int size = q.size();
 
-            // visit neighbours, (top-left, up, down, top-right, right, bottom-right, bottom, bottom-left, left)
-            int row[] = {-1, -1, 0, 1, 1, 1, 0, -1};
-            int col[] = {0, 1, 1, 1, 0, -1, -1, -1};
-            for(int i = 0; i < 8; i++) {
-                int newR = cell.first+row[i];
-                int newC = cell.second+col[i];
-                if(isSafe(newR, newC, n, grid)) {
-                    grid[newR][newC] = 1;       // mark as visited
-                    q.push({len+1, {newR, newC}});
+            for(int j = 0; j < size; j++) {
+                pair<int, int> cell = q.front();
+                q.pop();
+
+                // this ensures that this is shortest path, coz this cell is first to reach here in this length
+                if(cell.first == n-1 && cell.second == n-1)
+                    return len;
+                
+                for(int i = 0; i < 8; i++) {
+                    int newR = cell.first+row[i];
+                    int newC = cell.second+col[i];
+                    if(isSafe(newR, newC, n, grid)) {
+                        grid[newR][newC] = 1;       // mark as visited
+                        q.push({newR, newC});
+                    }
                 }
             }
+
+            // since level is complete increase the lenght of path, coz one of them will lead to shortest path
+            len++;
         }
 
-        return  minLen == INT_MAX ? -1 : minLen;
+        // If we exhaust the queue without finding the path
+        return -1;
     }
 };
