@@ -296,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
+| [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0801-is-graph-bipartite](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0801-is-graph-bipartite) |
@@ -320,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
+| [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -468,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -479,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## String Matching
