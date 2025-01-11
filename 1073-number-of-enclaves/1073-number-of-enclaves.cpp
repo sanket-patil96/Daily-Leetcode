@@ -13,7 +13,6 @@ public:
         grid[r][c] = 2;
 
         // travel to neighbouring cells
-        bool flag = false;
         for(int i = 0; i < 4; i++)
             dfs(r+dist[i], c+dist[i+1], n, m, grid);
     }
@@ -25,17 +24,13 @@ public:
 
         int ans = 0;
 
-        // mark boundry connected cells as 2 & flood fill till land possible
-        for (int i = 0; i < n; i++) {
-            if (grid[i][0] == 1) dfs(i, 0, n, m, grid);         // Left boundary
-            if (grid[i][m - 1] == 1) dfs(i, m - 1, n, m, grid); // Right boundary
-        }
-        for (int j = 0; j < m; j++) {
-            if (grid[0][j] == 1) dfs(0, j, n, m, grid);         // Top boundary
-            if (grid[n - 1][j] == 1) dfs(n - 1, j, n, m, grid); // Bottom boundary
-        }
-        
-        
+        // mark boundry connected cells as 2 & flood fill till we found as much land
+        for (int i = 0; i < n; i++) 
+            for (int j = 0; j < m; j++) 
+                if((i*j == 0 || i == n-1 || j == m-1) && grid[i][j] == 1)
+                    dfs(i, j, n, m, grid);      // all boundries covered
+    
+
         // check cells which has 1 , means boundry cells doesn't reach to them
         int count = 0;
         for (int i = 0; i < n; i++) 
