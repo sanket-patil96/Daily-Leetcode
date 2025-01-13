@@ -14,20 +14,13 @@ public:
         string ans = "";
 
         for(auto c: s) {
-            if(c == '(') {
-                opening++;
+            // as if there are outer parenthesis other than current then we can add it in answer
+            if(c == '(' && opening++ > 0) 
+                ans += c;
 
-                // as if there are outer parenthesis other than current then we can add it in answer
-                if(opening > 1)
-                    ans += "(";
-            }
-            else {
-                opening--;
-
-                // if there are outer parenthesis then only add the closing bracket, if this: "()" then don't add
-                if(opening > 0)
-                    ans += ")";
-            }
+            // if there are outer parenthesis then only add the closing bracket, if this: "()" then don't add
+            else if(c == ')' && opening-- > 1) 
+                ans += c;
         }
 
         return ans;
