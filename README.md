@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2691-count-vowel-strings-in-ranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Math
 |  |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Matrix
 |  |
 | ------- |
