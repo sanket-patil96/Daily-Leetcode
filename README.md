@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0012-integer-to-roman) |
+| [0014-longest-common-prefix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0071-simplify-path) |
@@ -468,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0014-longest-common-prefix) |
 | [0386-lexicographical-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0386-lexicographical-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
