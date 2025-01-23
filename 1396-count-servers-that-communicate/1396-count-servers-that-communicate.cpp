@@ -49,9 +49,6 @@ public:
             }
         }
 
-        cout << unconnected << endl;
-        cout << servers << endl;
-
         return servers-unconnected;
     }
 };
