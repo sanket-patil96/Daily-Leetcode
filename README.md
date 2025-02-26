@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0240-search-a-2d-matrix-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0162-find-peak-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0200-number-of-islands) |
+| [0240-search-a-2d-matrix-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
@@ -468,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0148-sort-list) |
+| [0240-search-a-2d-matrix-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 ## Merge Sort
 |  |
 | ------- |
