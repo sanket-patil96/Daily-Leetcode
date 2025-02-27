@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-defuse-the-bomb](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
+| [2047-find-a-peak-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
+| [2047-find-a-peak-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
+| [2047-find-a-peak-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 ## Greedy
 |  |
