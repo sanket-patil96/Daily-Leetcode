@@ -554,4 +554,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
