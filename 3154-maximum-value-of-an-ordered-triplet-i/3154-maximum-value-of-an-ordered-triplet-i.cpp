@@ -1,23 +1,28 @@
 class Solution {
 public:
     long long maximumTripletValue(vector<int>& nums) {
-        // we calculate for all triplets
-        long long maxi = LLONG_MIN;
-        int n = nums.size();
-        
-        // n-2coz last triplet is n-3, n-2, n-1
-        for(int i = 0; i < n-2; i++)
-        {
-            for(int j = i+1; j < n-1; j++)
-            {
-                for(int k = j+1; k < n; k++) 
-                {
-                    long long curr_sum = (long long) (nums[i] - nums[j]) * nums[k];
-                    maxi = max(maxi, curr_sum);
-                }
+        // Optimised approach: O(N) solution
+        // Hint 2.
+        // Use three pointers,
+        // 1. One to store the largest value so far.
+        // 2. One to store the largest difference so far.
+        // 3. And one to store the largest triplet value so far.
+
+        long long mxVal = -1, mxDiff = INT_MIN, mxTriplet = 0;
+
+        for(int i = 0; i < nums.size(); i++) {
+            // to ensure it can be triplet
+            if(i > 1) {
+                mxTriplet = max(mxDiff*nums[i], mxTriplet);
             }
-        }
+
+            if(mxVal < nums[i])
+                mxVal = nums[i];
+            else 
+                mxDiff = max(mxDiff, mxVal-nums[i]);
         
-        return maxi <= 0? 0: maxi;
+        }
+
+        return mxTriplet;
     }
 };
