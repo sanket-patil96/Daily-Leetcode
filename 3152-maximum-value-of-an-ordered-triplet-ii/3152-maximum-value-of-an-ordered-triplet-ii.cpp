@@ -1,0 +1,23 @@
+class Solution {
+public:
+    long long maximumTripletValue(vector<int>& nums) {
+        // same optimization as done in its First level question
+        // Hint.
+        // Use three pointers,
+        // 1. One to store the largest value so far.
+        // 2. One to store the largest difference so far.
+        // 3. And one to store the largest triplet value so far.
+
+
+        long long mxTriplet = 0;
+        int mxVal = 0, mxDiff = 0;
+
+        for(int i = 0; i < nums.size(); i++) {
+            mxTriplet = max(mxTriplet, (long long) mxDiff*nums[i]);
+            mxVal = max(mxVal, nums[i]);
+            mxDiff = max(mxDiff, mxVal-nums[i]);
+        }
+
+        return mxTriplet;
+    }
+};
