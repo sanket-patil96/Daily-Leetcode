@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1524-string-matching-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1656-count-good-triplets](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1656-count-good-triplets) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1755-defuse-the-bomb](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1755-defuse-the-bomb) |
@@ -562,4 +563,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0595-big-countries](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0595-big-countries) |
+## Enumeration
+|  |
+| ------- |
+| [1656-count-good-triplets](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1656-count-good-triplets) |
 <!---LeetCode Topics End-->
