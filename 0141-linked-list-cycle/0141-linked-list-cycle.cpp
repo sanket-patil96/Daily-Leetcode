@@ -11,7 +11,7 @@ public:
     bool hasCycle(ListNode *head) {
         // method O(n) time
         // we use fast & slow pointer , initially both point to head, then slow moves 1 node &
-        // fast moved 2 nodes eventually both meet on one node which create cycle if there is cycle
+        // fast moved 2 nodes eventually both meet on same node which create cycle if there is cycle
 
         ListNode *slow = head;
         ListNode *fast = head;
