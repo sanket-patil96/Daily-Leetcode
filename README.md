@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 ## Two Pointers
 |  |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2047-find-a-peak-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Greedy
 |  |
 | ------- |
@@ -433,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Binary Tree
 |  |
 | ------- |
@@ -533,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2121-find-if-path-exists-in-graph](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Shortest Path
 |  |
 | ------- |
@@ -540,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## String Matching
 |  |
 | ------- |
