@@ -575,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0595-big-countries](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0595-big-countries) |
+| [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 ## Enumeration
 |  |
 | ------- |
