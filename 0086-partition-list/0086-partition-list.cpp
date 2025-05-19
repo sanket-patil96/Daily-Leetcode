@@ -22,51 +22,27 @@ public:
         if(!head || !head->next)
             return head;
 
-        ListNode *part1 = NULL;
-        ListNode *prev1 = NULL;
-        ListNode *part2 = NULL;
-        ListNode *prev2 = NULL;
-        ListNode *newHead = NULL;
+        // better written:
+        ListNode lessDummy(0), moreDummy(0);  // Dummy heads
+        ListNode* less = &lessDummy;
+        ListNode* more = &moreDummy;
 
-        ListNode *curr = head;
-        while(curr) {
-            if(curr->val < x) {
-                if(!newHead) {
-                    part1 = curr;
-                    newHead = part1;
-                    prev1 = part1;
-                }
-                else {
-                    prev1->next = curr;
-                    prev1 = prev1->next;
-                }
-            }
+        while (head) {
+            if (head->val < x) {
+                less->next = head;
+                less = less->next;
+            } 
             else {
-                if(!part2) {
-                    part2 = curr;
-                    prev2 = part2;
-                }
-                else {
-                    prev2->next = curr;
-                    prev2 = prev2->next;
-                }
+                more->next = head;
+                more = more->next;
             }
-
-            curr = curr->next;
+            
+            head = head->next;
         }
 
-        // make the last node next = NULL to end list If its not already NULL
-        if(prev2)
-            prev2->next = NULL;
+        more->next = nullptr;        // Terminate the 'more' list
+        less->next = moreDummy.next; // Connect the two partitions
 
-        // new head is not set means all nodes has greater value than X so set list2's head as newhead
-        if(!newHead) {
-            return part2;
-        }
-
-        // connect partition1's tail with partition 2's head
-        prev1->next = part2;
-
-        return newHead;
+        return lessDummy.next;       // Return the real head
     }
 };
