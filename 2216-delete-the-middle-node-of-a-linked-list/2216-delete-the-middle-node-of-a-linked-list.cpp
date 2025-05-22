@@ -11,21 +11,29 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        // using the fast & slow pointers
+        // we use slow & fast pointer to finding middle technique
 
-        if(!head || !head->next)
+        // corner case if head is null or head is only 1 node
+        if(head == NULL || head->next == NULL)
             return NULL;
 
-        ListNode *slowPrev = NULL, *slow = head, *fast = head;
 
-        while(fast && fast->next) {
-            slowPrev = slow;        // update the previous pointer
+        ListNode *slow = head;
+        ListNode *fast = head;
+        // remain on slow pointer after slow updates, means at last it will on the previous 
+        // node of middle node so we can remove middle node easily by disconnecting middle node
+        ListNode *prev;         
+        while(fast != NULL && fast->next != NULL) 
+        {
+            prev = slow;
             slow = slow->next;
             fast = fast->next->next;
         }
 
-        slowPrev->next = slow->next;
-        delete slow;
+        // prev at previous of middle node slow at middle node; so disconnect prev with middle 
+        // and connect with next of middle
+        prev->next = slow->next;
+        delete slow;        // delete middle node from memory
 
         return head;
     }
