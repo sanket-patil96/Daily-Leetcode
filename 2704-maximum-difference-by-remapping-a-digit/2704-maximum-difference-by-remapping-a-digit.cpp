@@ -7,26 +7,21 @@ public:
         // -- to minimize num:
         // just make the first digit 0 (and its all occurances)
 
+        // --- simplified code than first one ---
+
         // first convert num to string
-        string maxi = to_string(num);
-        string mini = maxi;             // use this for getting minimum
-        char numToReplace = ' ';       // its the number that we will change to max('9')
-        char makeZero = mini[0];        // always make first digit 0 to minimize the overall value of num
+        string s = to_string(num);
+        string t = s;
+        size_t pos = s.find_first_not_of('9');      // convert first non-zero
 
-        // get maxVal
-        for(int i = 0; i < maxi.size(); i++) {
-            if((numToReplace == ' ' && maxi[i] != '9') || numToReplace == maxi[i]) {     // only do when we don't select any num to replace
-                numToReplace = maxi[i];
-                maxi[i] = '9';             
-            }
-
-            if(mini[i] == makeZero) {
-                mini[i] = '0';
-            }
+        if (pos != string::npos) {
+            char a = s[pos];
+            replace(s.begin(), s.end(), a, '9');
         }
 
-        // now get difference
-        int diff = stoi(maxi)-stoi(mini);
-        return diff;
+        char b = t[0];
+        replace(t.begin(), t.end(), b, '0');        // replace all occurances of first digit to 0
+        
+        return stoi(s) - stoi(t);
     }
 };
