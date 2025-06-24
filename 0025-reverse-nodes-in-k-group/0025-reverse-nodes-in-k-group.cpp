@@ -10,63 +10,56 @@
  */
 class Solution {
 public:
-    ListNode *reverse(ListNode *head) {
-        ListNode *prev = NULL;
-        ListNode *next = NULL;
-        while(head) {
-            next = head->next;
-            head->next = prev;
-            prev = head;
 
-            head = next;
+    ListNode* rev(ListNode* h) {
+        ListNode *prev = NULL, *next;
+
+        while(h) {
+            next = h->next;
+            h->next = prev;
+            prev = h;
+
+            h = next;
         }
 
         return prev;
     }
 
     ListNode* reverseKGroup(ListNode* head, int k) {
-        // use few pointer to store start of list to be reversed with its tail->next for connect the reversed tail to original next
-        // & also store prev of start to connect it with the reversed list head
-        // and connect start with original tail->next 
-        // if count != k then simply move current pointer further
-        // after reversing the k group reseat prevStart, curr & start pointers for next k group
-
-        if(!head || !head->next || k == 1)
+        if(!head->next || k == 1)       // No change
             return head;
 
-        ListNode *newHead = new ListNode(-1, head);
-        ListNode *curr = newHead->next;
-        // curr = curr->next;
-        ListNode *startPrev = newHead;
-        ListNode *endNext = NULL;
-        ListNode *start = head;                 // starting and ending of reversed list & prev of start to connect
-        ListNode *end = NULL;  
+        ListNode *prev = NULL;
+        ListNode *curr = head;
+        int cnt = 0;      
 
-        int cnt = 1;
+        ListNode *st = head, *end = NULL, *end_next = NULL;
+
         while(curr) {
+            cnt++;
+            end_next = curr->next;
+
             if(cnt == k) {
-                endNext = curr->next;
-                curr->next = NULL;
-                startPrev->next = reverse(start);
+                curr->next = NULL;          // break the link for reversing
 
-                // connect the reversed tail to original tail->next node
-                start->next = endNext;
+                ListNode *reversed = rev(st);
+                
+                if(!prev) 
+                    head = reversed;
+                else 
+                    prev->next = reversed;
+        
+                
+                // prepare for new next part
+                prev = st;              
+                st->next = end_next;
+                st = end_next;         
+                cnt = 0;
+            }
 
-                // change pointers & cnt for next k group
-                startPrev = start;              // start is now tail of reversed part
-                curr = endNext;
-                start = curr;                   // nexxt starting point of list
-                cnt = 1;
-            }
-            else {
-                curr = curr->next;
-                cnt++;
-            }
+            curr = end_next;
         }
 
-        ListNode *temp = newHead;
-        newHead = newHead->next;
-        delete temp;
-        return newHead;
+        return head;
     }
 };
