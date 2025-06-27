@@ -11,7 +11,8 @@
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        // use same min heap approach as used in sort lists
+        // use same min heap approach as used in Flatten list OR sort lists
+
         if(lists.size() == 0)
             return NULL;
 
@@ -19,25 +20,27 @@ public:
             return a->val > b->val;
         });
 
-        for(int i = 0; i < lists.size(); i++) {
-            ListNode *curr = lists[i];
-            while(curr) {
-                pq.push(curr);
-                curr = curr->next;
-            }
-        }
+        for(int i = 0; i < lists.size(); i++)
+            if(lists[i])
+                pq.push(lists[i]);      // push the head of list (lists are already sorted in themself so only head is needed)
+        
             
         ListNode *head = new ListNode(-1);
         ListNode *curr = head;
 
         while(!pq.empty()) {
-            curr->next = pq.top();
+            ListNode *min = pq.top();
             pq.pop();
+            curr->next = min;
+
+            // avoid null in heap
+            if(min->next) pq.push(min->next);
+
             curr = curr->next;
         }
 
-        // end the list
-        curr->next = NULL;
+        // // end the list
+        // curr->next = NULL;
 
         return head->next;
     }
