@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0409-longest-palindrome](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0409-longest-palindrome) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0460-lfu-cache](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0460-lfu-cache](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0460-lfu-cache) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -490,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0328-odd-even-linked-list) |
+| [0460-lfu-cache](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0460-lfu-cache) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -512,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0460-lfu-cache](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0460-lfu-cache) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 ## Divide and Conquer
 |  |
