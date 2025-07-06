@@ -20,14 +20,9 @@ public:
     
     void add(int index, int val) {
         // remove the previous value frequency and add new value to frequency and update in nums2
-        int OG_val = n2[index];
-        freq[OG_val]--;
-        if(freq[OG_val] == 0)
-            freq.erase(OG_val);
-        
-        int newVal = OG_val + val;
-        freq[newVal]++;
+        freq[n2[index]]--;
         n2[index] += val;
+        freq[n2[index]]++;
     }
     
     int count(int tot) {
