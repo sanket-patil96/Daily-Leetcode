@@ -2,13 +2,14 @@ class Solution {
 public:
     bool canFinish(int N, vector<vector<int>>& prerequisites) {
         // T/C: O(N+P)   S/C: O(N+P)    (where N = no.of courses, & P = prerequisites)
-        // we can solve this problem by using the Topological Sort Algorithm, where the 
-        // independant task should executed first.
+        // create a adjacency list, ex: adj[0] = {list of dependant tasks on 0}
+        // store indegree of each task 
+        // complete tasks as their indegree completes
 
-        // 2nd approach:
-        // make it as graph representation to directly use Topological SORT
         vector<vector<int>> adj(N);
 
+        // get indegree 
+        vector<int> indegree(N);
 
         // mark dependancies
         int P = prerequisites.size();
@@ -16,16 +17,11 @@ public:
             int task = prerequisites[i][0];
 	        int dependantOn = prerequisites[i][1];
 
-            adj[task].push_back(dependantOn);
-        }
+            indegree[task]++;
 
-
-        // get indegree 
-        vector<int> indegree(N);
-        for(auto u: adj)
-            for(auto v: u)
-                indegree[v]++;
-        
+            // store dependancy list(tasks dependant on which task)
+            adj[dependantOn].push_back(task);
+        }        
 
         // get 0 indegree tasks in queue
         queue<int> q;
