@@ -1,108 +1,87 @@
 class Solution {
+private:
+    int dir[5] = {-1, 0, 1, 0, -1};  // to get neighbouring cells (ith is for row i+th is for col run i = 0 -> i < 4 for 4 directions up, right, down, left)
+
 public:
 
-    bool isSafe(int r, int c, vector<vector<int>> &vis, vector<vector<int>> &grid) {
-        if(r >= grid.size() || c >= grid.size()  || r < 0 || c < 0 || vis[r][c]) 
+    bool isSafe(int r, int c, vector<vector<int>>& grid) {
+        if(r < 0 || r >= grid.size() || c < 0 || c >= grid.size())
             return false;
-
         return true;
     }
 
-    void dfs(int r, int c, vector<vector<int>> &vis, vector<vector<int>> &grid, vector<vector<int>> &isLand) {
-        if(!isSafe(r, c, vis, grid) || grid[r][c] == 0) 
-            return;
-        
-        vis[r][c] = 1;
-        isLand.push_back({r, c});
+    void dfs(int r, int c, queue<pair<int, int>> &q, vector<vector<int>>& grid) {
+        // mark as visited & push in queue
+        grid[r][c] = 2;
+        q.push({r, c});
 
-        // check on 4 directions
-        int row[] = {1, -1, 0, 0};
-        int col[] = {0, 0, 1, -1};
+        // visit neighbouring land
         for(int i = 0; i < 4; i++) {
-            // if(!isSafe(r+row[i], c+col[i], vis, grid) || grid[r][c] != 0) 
-            dfs(r+row[i], c+col[i], vis, grid, isLand);
+            int newR = r+dir[i];
+            int newC = c+dir[i+1];
+            if(isSafe(newR, newC, grid) && grid[newR][newC] == 1)
+                dfs(newR, newC, q, grid);
         }
-    }
-
-    int bfs(vector<vector<int>>& island, vector<vector<int>>& grid) {
-        int n = grid.size();
-        vector<vector<int>> vis(n, vector<int> (n, 0));
-
-        // queue contains {{row, col}, bridge_length_for_current_point}
-        queue<pair<pair<int, int>, int>> q;
-
-        // mark the current island's positions as visited so they don't appear as nearer land
-        // push the current land in queue
-        for(auto it: island) {
-            vis[it[0]][it[1]] = 1;
-            q.push({{it[0], it[1]}, 0});        // 0 distance for soruce lands
-        }
-
-        int shortest_bridge = INT_MAX;
-
-        while(!q.empty()) {
-            pair<pair<int, int>, int> node = q.front();
-            q.pop();
-
-            int r = node.first.first;
-            int c = node.first.second;
-            int len = node.second;
-
-            // push 0 adjacents (not neighbouring 1's)
-            int row[] = {1, -1, 0, 0};
-            int col[] = {0, 0, 1, -1};
-            for(int i = 0; i < 4; i++) {
-                int newR = r+row[i];
-                int newC = c+col[i];
-                if(isSafe(newR, newC, vis, grid)) {
-                    if(grid[newR][newC] == 1) {
-                        shortest_bridge = min(shortest_bridge, len);
-                    }
-                    else {
-                        vis[newR][newC] = 1;
-                        q.push({{newR, newC}, len+1});
-                    }
-                }
-            }
-        }
-
-        return shortest_bridge;
     }
 
     int shortestBridge(vector<vector<int>>& grid) {
-        // basic idea: 
-        // store both islands (positions) using DFS & execute BFS for finding nearer '1'
-        // on the island which has less land(less no.of 1's)
+        // 1. store any 1 island in queue for BFS & change its value to 2 so it wont apper when finding other island '1'
+        // 2. Multi-source BFS on first island and try to find the min flips for finding 2nd island
 
-        int n = grid.size();
-        vector<vector<int>> vis(n, vector<int> (n, 0));
+        // will store {row, col} of island
+        // we don't require to use priority queue here coz we go level-wise to count the closest route to reach 2nd island
+        queue<pair<int, int>> q;
 
-        // array's to store the island's positions, useful for performing BFS on them
-        vector<vector<int>> isLandOne;
-        vector<vector<int>> isLandTwo;
+        for(int i = 0; i < grid.size(); i++) {
+            bool flag = false;
 
-        bool flag = true;       // means for first founded island('1') use the isLand1 & for 2nd land use isLandTwo
-        for(int i = 0; i < n; i++) {
-            for(int j = 0; j < n; j++) {
-                if(grid[i][j] != 0 && !vis[i][j]) {
-                    if(flag) {
-                        dfs(i, j, vis, grid, isLandOne);
-                        flag = false;       // needs only single time, coz there are only 2 islands
-                    }
-                    else 
-                        dfs(i, j, vis, grid, isLandTwo);
+            for(int j = 0; j < grid.size(); j++) {
+                if(grid[i][j] == 1) {
+                    dfs(i, j, q, grid);
+                    flag = true;
+                    break;              // as there are only 2 island's so stop when we process 1 island don't push other islnad's land in q
                 }
             }
+
+            if(flag)        // indicates 1 island is already pushed so stop looping
+                break;
         }
 
-        // do BFS on the island which has less land
-        int res = 0;
-        if(isLandOne.size() < isLandTwo.size())
-            res = bfs(isLandOne, grid);
-        
-        else 
-            res = bfs(isLandTwo, grid);
+        // start multi-source BFS
+        int minFlips = 0;
 
-        return res;
+        while(!q.empty()) {
+            int sz = q.size();
+            
+            for(int i = 0; i < sz; i++) {
+                int r = q.front().first;
+                int c = q.front().second;
+                q.pop();
+
+                // push neighbouring water cells
+                for(int j = 0; j < 4; j++) {
+                    int newR = r+dir[j];
+                    int newC = c+dir[j+1];
+
+
+                    if(isSafe(newR, newC, grid)) {
+                        if(grid[newR][newC] == 1) 
+                            return minFlips;
+
+                        if(grid[newR][newC] == 0) {  // push only water cells
+                            // cout << " hello";
+                            grid[newR][newC] = 2;    // mark visited water cells
+                            q.push({newR, newC});
+                        }
+                    }
+                }
+
+            }
+            
+            // consider in this level iterating we did 1 flip of  water cell
+            minFlips++;
+        }
+
+        return -1;
     }
 };
