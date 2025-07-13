@@ -1,71 +1,60 @@
 class Solution {
 public:
 
-    bool isSafe(int r, int c, vector<vector<int>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
-        if(r < 0 || r >= n || c < 0 || c >= m || grid[r][c] == 0 || grid[r][c] == 2)
+    bool isSafe(int r, int c, int m, int n, vector<vector<int>> &grid) {
+        if(r < 0 || r >= m || c < 0 || c >= n || grid[r][c] != 1)
             return false;
 
         return true;
     }
 
     int orangesRotting(vector<vector<int>>& grid) {
-        // we use BFS, as it goies to visit its neighbours first, then neighbour's neighbour's 
-        //  ,... till end so it comes in minimum time:
+        // store the minues and the row, col in min heap
+        // get the top from heap and push its fresh tomatoes in heap with +1 minute increased
+        // keep track of highest minute
 
-        // space n*m for queues
-        // time: n*m overall
+        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>> pq;
 
-        int n = grid.size();
-        int m = grid[0].size();
-
-        // queue contains {{row, col}, rottenTime}
-        queue<pair<pair<int, int>, int>> q;
-
-        for(int i = 0; i < n; i++) 
-            for(int j = 0; j < m; j++) 
-                if(grid[i][j] == 2) 
-                    q.push({{i, j}, 0});        // rotten time for already rotten orange is 0 mins
-
-
-        // WE WANT MINIMUM TIME, SO WE SET IT TO MINIMUM & UPDATE IT WITH THE LAST ROTTEN TOMATO TIMING
-        int minTime = INT_MIN;
-        
-        // for getting neighbours, (up, down, left, right)
-        int r[] = {-1, 1, 0, 0};
-        int c[] = {0, 0, -1, +1};
-
-        while(!q.empty()) {
-            pair<pair<int, int>, int> node = q.front();
-            int row = node.first.first;
-            int col = node.first.second;
-            int t = node.second;
-            q.pop();
-
-            // stores max time from all rotten orages burn time
-            minTime = max(minTime, t);
-
-            // now make its adjacents rotten
-            for(int i = 0; i < 4; i++) {
-                int newR = row + r[i];
-                int newC = col + c[i];
-
-                if(isSafe(newR, newC, grid)) {
-                    grid[newR][newC] = 2;       // it becomes rotten now (works like visited  array)
-                    q.push({{newR, newC}, t+1});
+        // store all the rotten oranges at 0th minute
+        int m = grid.size();
+        int n = grid[0].size();
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j] == 2) {
+                    pq.push({0, {i, j}});
                 }
             }
         }
 
+        // perform multi-source BFS 
+        int maxTime = 0;
+        int dir[] = {-1, 0, 1, 0, -1};      // for adjacent cells
 
-        // now check if all oranges are rotten or not
-        for(int i = 0; i < n; i++) 
-            for(int j = 0; j < m; j++) 
+        while(!pq.empty()) {
+            int time = pq.top().first;
+            int r = pq.top().second.first;
+            int c = pq.top().second.second;
+            pq.pop();
+
+            maxTime = max(maxTime,  time);
+
+            // rotten the adjacent fresh oranges
+            for(int i = 0; i < 4; i++) {
+                int newR = r+dir[i];
+                int newC = c+dir[i+1];
+                if(isSafe(newR, newC, m, n, grid)) {
+                    pq.push({time+1, {newR, newC}});
+                    grid[newR][newC] = 2;           // rotten the orange
+                }
+            }
+        }   
+
+        // check if any fresh orange remain in grid
+        for(int i = 0; i < m; i++) 
+            for(int j = 0; j < n; j++) 
                 if(grid[i][j] == 1) 
                     return -1;
-                
-        // minTime doesn't change means all are already rotten
-        return minTime == INT_MIN ? 0 : minTime;
+
+        return maxTime; 
     }
 };
