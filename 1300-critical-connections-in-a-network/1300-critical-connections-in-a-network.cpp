@@ -1,66 +1,58 @@
 class Solution {
+private:
+    int time = 1;
+
 public:
-    int timer = 1;
 
-    void dfs(int node, int parent, vector<int> &vis, vector<int> adj[], int tin[],
-    int low[], vector<vector<int>> &bridges)
-    {
-        // first mark node as visited
-        vis[node] = 1;
-        tin[node] = low[node] = timer;  //initialize at starting, it won't re-initialize after visited
-        timer++;
+    void dfs(int n, int parent, vector<vector<int>>& adj, vector<int> &tin,  vector<int> &low, vector<vector<int>> &ans) {
+        tin[n] = time;
+        low[n] = time;
+        time++;
 
-        for(auto it: adj[node])
-        {
-            // as per algo don't check for parent node
-            if(it == parent)    continue;
+        for(auto u: adj[n]) {
+            if(u == parent)     continue;
 
-            if(!vis[it])
-            {
-                // traverse for adjacent 
-                dfs(it, node, vis, adj, tin, low, bridges);
+            // if not visited then visit and after its traversal complete take low time from u if its lower than parent node
+            if(tin[u] == -1) {          
+                dfs(u, n, adj, tin, low, ans);
+                low[n] = min(low[n], low[u]);
 
-                // after child has complete its execution, first get lowest step it can reach from it
-                low[node] = min(low[node], low[it]);
-
-                // now check if [node--->it] can be bridge, if adjacent can't reach back to *node from another step
-                // means we check how lowest step can adjacent reach if its greater than step require to reach 
-                // parent then there's a bridge, (parent always comes before its adjacent it has insertion time)
-                // so adjacent should have another path that can lead it to node's step
-                if(tin[node] < low[it]) 
-                    bridges.push_back({node, it});
-            }
-            else
-            {
-                // means node's current adjacent is already visited from another path so it can't be a bridge, so only update low if possible
-                low[node] = min(low[node], low[it]);
+                // now check if n--> u can be a critical or not, 
+                // its critical connection connection if u can't reach out to n from other lower step
+                if(tin[n] < low[u])
+                    ans.push_back({n, u});
             }
 
+            // if already visited then it can't be a critical connection, as it has other path's to reach out 
+            // then only get the low time if possible
+            else {
+                low[n] = min(low[n], low[u]);
+            }
         }
     }
 
     vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
-        // Tarjan's Algorithm:
-        // space: O(V + 2E) + O(3N) for vis, tin, low
-        // time:  O(V + 2E) for dfs
+        // we only know if a connection can become critical if the adjacent node of parent node
+        // can't reach out to parent from other paths
+        // so we find if the node can reach to parent from any other path then it can't become critical connection
 
-        // we have to create adjacency list 
-        // connections contain edges vector of vector where inner vector contains  node - edge
-        vector<int> adj[n];
-        for(auto it: connections)
-        {
-            // add edges both side coz undirected its Graph
-            adj[it[0]].push_back(it[1]);
-            adj[it[1]].push_back(it[0]);
+        // for this store the insertion time for all nodes
+        // while traversing store the lowest step it can reach out
+        // if insertion time of parent node  is less than lowest step its adjacenet reach out then its critical connection
+
+        vector<vector<int>> adj(n);
+
+        // first create the adjacency list
+        for(auto i: connections) {
+            adj[i[0]].push_back(i[1]);
+            adj[i[1]].push_back(i[0]);
         }
 
-        // we require visited array for dfs traversal
-        vector<int> vis(n, 0);
-        int tin[n];         // time of insertion step in dfs 
-        int low[n];
-        vector<vector<int>> bridges;     // for storing answers
+        // now store time of insertion & low time(initially same as insertion time)
+        vector<int>  tin(n, -1), low(n);
+        vector<vector<int>> bridges;
+        dfs(0, -1, adj, tin, low, bridges);
 
-        dfs(0, -1, vis, adj, tin, low, bridges);
         return bridges;
     }
 };
