@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1396-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1435-xor-queries-of-a-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1970-sorting-the-sentence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1970-sorting-the-sentence) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1063-best-sightseeing-pair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
 | [1236-n-th-tribonacci-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1236-n-th-tribonacci-number) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2262-solving-questions-with-brainpower) |
@@ -276,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2047-find-a-peak-element-ii) |
