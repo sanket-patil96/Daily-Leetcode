@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3617-find-the-original-typed-string-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3617-find-the-original-typed-string-i) |
+| [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -249,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [3321-type-of-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3321-type-of-triangle) |
+| [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 ## Stack
 |  |
 | ------- |
