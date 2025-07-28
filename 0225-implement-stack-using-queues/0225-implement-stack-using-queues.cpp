@@ -1,33 +1,29 @@
-// use q1 as stack, and q2 for temperory putting the queue element into it so we can insert new element on front of q1 then appen the previous values  from q2
+// approach using single queue
+// while pushing the elements into queue, push the current value, then reverse queue except last added element using
+// a loop pop the front and add it to last of queue
+// then other pop & top will be same as stack for queue front
 class MyStack {
-queue<int> q1, q2;
+queue<int> q1;
+
 public:
     MyStack() {
         
     }
     
     void push(int x) {
-        // insert all elemes of q1 into q2
-        while(!q1.empty()) {
-            q2.push(q1.front());
-            q1.pop();
-        }
-
-        // insert current new element in q1 so accessible at front like top of stack
         q1.push(x);
 
-        // now fill the previous elements of q1 from q2
-        while(!q2.empty()) {
-            q1.push(q2.front());
-            q2.pop();
+        for(int i = 0; i < q1.size()-1; i++) {
+            int val = q1.front();
+            q1.pop();
+            q1.push(val);
         }
     }
     
     int pop() {
-         // pop the front of q1 which is simulating top of stack
         int val = q1.front();
         q1.pop();
-        return val;      
+        return val;
     }
     
     int top() {
