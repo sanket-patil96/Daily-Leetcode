@@ -7,47 +7,43 @@ public:
         // use map to store the index of every element of nums2 to make ease the process of finding the nums1 value in nums2
         // traverse nums1 get the currosponding index of that elem in nums2 using map, use suffix array to get next greater
 
+        // \U0001f4a1 NOTE: little modification, just store the next greate on map itself usign stack, rather  than another suffix array
         int n = nums1.size();
         int m = nums2.size();
 
-        vector<int> nextGreater(m);
-        unordered_map<int, int> pos;
+        // store next greater on map
+        unordered_map<int, int> nextGreater;
         stack<int> mxVal;
 
         // for last elem there is no next greater
-        nextGreater[m-1] = -1;
         mxVal.push(nums2[m-1]);
-        pos[nums2[m-1]] = m-1;
+        nextGreater[nums2[m-1]] = -1;
 
         for(int i = m-2; i >= 0; i--) {
-            if(nums2[i] < mxVal.top()) {
-                nextGreater[i] = mxVal.top();
-            }
+            int max = -1;
+
+            if(nums2[i] < mxVal.top()) 
+                max = mxVal.top();
+            
             else {
                 // pop all small values 
                 while(!mxVal.empty() && mxVal.top() < nums2[i])
                     mxVal.pop();
                 
                 // if stack empty means no bigger value of right of it, else store bigger
-                if(mxVal.empty())
-                    nextGreater[i] = -1;
-                else 
-                    nextGreater[i] = mxVal.top();
+                max = mxVal.empty() ? -1 : mxVal.top();
             }
 
-            pos[nums2[i]] = i;
+            nextGreater[nums2[i]] = max;
             mxVal.push(nums2[i]);
         }
 
 
         // main solution
         vector<int> ans;
-        for(int i = 0; i < n; i++) {
-            int ind = pos[nums1[i]];
-            int greater = nextGreater[ind];
-
-            ans.push_back(greater);
-        }
+        for(int i: nums1) 
+            ans.push_back(nextGreater[i]);
+        
 
         return ans;
     }
