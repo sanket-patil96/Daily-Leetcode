@@ -1,27 +1,24 @@
 class Solution {
 public:
 
-    bool isMatch(char c, stack<char> &st) {
-        if((c == ')' && st.top() == '(') || (c == ']' && st.top() == '[') || (c == '}' && st.top() == '{'))
+    bool isMatch(char c, string &st) {
+        if((c == ')' && st.back() == '(') || (c == ']' && st.back() == '[') || (c == '}' && st.back() == '{'))
             return true;
         return false;
     }
 
     bool isValid(string s) {
-        // store all open brackets on stack
-        // if closing bracket occur, then check it match with the open bracket on top of stasck
-        // if matches then pop the top 
-        // else return false
-        // at last if stack is empty and all string processed then return true
+        // approach 2: using simple string without stack
+        // store only open braces, and pop back when closed
 
-        stack<char> st;
+        string st = "";
 
         for(auto c: s) {
             if(c == '(' || c == '[' || c == '{') 
-                st.push(c);
+                st += c;
 
             else if(!st.empty() && isMatch(c, st))
-                st.pop();
+                st.pop_back();
             else 
                 return false;
         }
