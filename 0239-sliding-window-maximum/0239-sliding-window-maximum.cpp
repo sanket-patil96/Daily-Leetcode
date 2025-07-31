@@ -1,5 +1,10 @@
 class Solution {
 public:
+    // we can use a double ended Queue to store the maximum value to front of it
+    // if a value smaller than rear of queue comes push it to back of queue coz it can be greater for next window, after current front Max get out of window
+    // if a greater value comes then pop all backside values that are lesser then current value
+    // coz they are now useless coz current Max element will be present in future windows where the old smaller can't become max for
+
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
         // all operations of deque takes O(1) time
         // every elem is pushed and popped 1 times each so over time complexity is O(n)
@@ -11,7 +16,7 @@ public:
         // we procese first k elements
         for(int i = 0; i < k; i++)
         {
-            // store indexes in dq so we can easily remove index which is our of k size window
+            // store indexes in dq so we can easily remove index which is out of k size window
 
             // we pop unneccessory elements from deque, 
             // ex: 4 1 2 5 6   here we first store 4 1 2 and after that when we see 
