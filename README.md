@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0088-merge-sorted-array) |
+| [0118-pascals-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0053-maximum-subarray) |
+| [0118-pascals-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0338-counting-bits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0338-counting-bits) |
