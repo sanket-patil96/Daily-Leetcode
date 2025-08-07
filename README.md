@@ -699,6 +699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0176-second-highest-salary) |
+| [0177-nth-highest-salary](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0177-nth-highest-salary) |
 | [0197-rising-temperature](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0197-rising-temperature) |
 | [0595-big-countries](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0595-big-countries) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
