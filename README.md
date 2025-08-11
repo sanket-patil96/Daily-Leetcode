@@ -265,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
+| [0931-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0931-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0937-online-stock-span](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0937-online-stock-span) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -529,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0460-lfu-cache](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0460-lfu-cache) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0931-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0937-online-stock-span](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0937-online-stock-span) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 ## Binary Search Tree
@@ -736,5 +739,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0931-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-maximum-frequency-stack) |
 | [3790-fruits-into-baskets-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 <!---LeetCode Topics End-->
