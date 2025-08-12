@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0931-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-maximum-frequency-stack) |
@@ -508,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0085-maximal-rectangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0937-online-stock-span) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
