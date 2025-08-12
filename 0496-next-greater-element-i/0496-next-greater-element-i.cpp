@@ -22,18 +22,13 @@ public:
         for(int i = m-2; i >= 0; i--) {
             int max = -1;
 
-            if(nums2[i] < mxVal.top()) 
-                max = mxVal.top();
+            // pop all small values 
+            while(!mxVal.empty() && mxVal.top() < nums2[i])
+                mxVal.pop();
             
-            else {
-                // pop all small values 
-                while(!mxVal.empty() && mxVal.top() < nums2[i])
-                    mxVal.pop();
-                
-                // if stack empty means no bigger value of right of it, else store bigger
-                max = mxVal.empty() ? -1 : mxVal.top();
-            }
-
+            // if stack empty means no bigger value of right of it, else store bigger
+            max = mxVal.empty() ? -1 : mxVal.top();
+            
             nextGreater[nums2[i]] = max;
             mxVal.push(nums2[i]);
         }
