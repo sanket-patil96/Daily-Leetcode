@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2227-sum-of-subarray-ranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2262-solving-questions-with-brainpower](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1552-build-an-array-with-stack-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2227-sum-of-subarray-ranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2573-remove-nodes-from-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Binary Search
 |  |
@@ -520,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [2227-sum-of-subarray-ranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2573-remove-nodes-from-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Tree
 |  |
