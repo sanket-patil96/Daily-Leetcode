@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0031-next-permutation) |
 | [0035-search-insert-position](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0035-search-insert-position) |
 | [0040-combination-sum-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0053-maximum-subarray) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0075-sort-colors) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0053-maximum-subarray) |
 | [0085-maximal-rectangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0118-pascals-triangle) |
@@ -310,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0071-simplify-path) |
 | [0085-maximal-rectangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0085-maximal-rectangle) |
 | [0143-reorder-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0143-reorder-list) |
@@ -518,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
