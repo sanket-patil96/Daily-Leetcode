@@ -7,11 +7,20 @@ public:
 
         int n = height.size();
 
-        vector<int> leftLargest(n, 0);
-        vector<int> rightLargest(n, 0);
+        vector<int> leftLargest(n), rightLargest(n);
+        leftLargest[0] = height[0];
+        rightLargest[n-1] = height[n-1];
 
-        getLeftMax(n, height, leftLargest);
-        getRightMax(n, height, rightLargest);
+        // we use leftLargest array itself to check the max one, from current and last
+        for(int i = 1; i < n; i++) {
+            leftLargest[i] = max(leftLargest[i-1], height[i]);
+        }
+
+        // same thing here
+        for(int i = n-2; i >= 0; i--) {
+            rightLargest[i] = max(rightLargest[i+1], height[i]);
+        }
+        
 
         int totalWater = 0;
         for(int i = 0; i < n; i++) {
@@ -21,38 +30,5 @@ public:
         }
 
         return totalWater;
-    }
-
-    void getLeftMax(int n, vector<int> &ar, vector<int> &ans) {
-        // we use monotonic increasing stack
-        stack<int> s;
-        s.push(ar[0]);      // for first don't need to check its left
-
-        for(int i = 1; i < n; i++) {
-            while(s.size() && s.top() <= ar[i])
-                s.pop();
-            
-            if(s.empty())   
-                s.push(ar[i]);
-            else            
-                ans[i] = s.top();
-        }
-    }
-
-    void getRightMax(int n, vector<int> &ar, vector<int> &ans) {
-        // we use monotonic decreasing stack
-        stack<int> s;
-        s.push(ar[n-1]);      // for last don't need to check its right
-
-        for(int i = n-2; i >= 0; i--) {
-            // if current is max from right
-            while(s.size() && s.top() <= ar[i]) 
-                s.pop();
-        
-            if(s.empty())    
-                s.push(ar[i]);
-            else            
-                ans[i] = s.top();
-        }
     }
 };
