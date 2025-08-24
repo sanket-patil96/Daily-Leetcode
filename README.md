@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1552-build-an-array-with-stack-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1656-count-good-triplets](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1656-count-good-triplets) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
@@ -443,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [1046-max-consecutive-ones-iii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1755-defuse-the-bomb) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
