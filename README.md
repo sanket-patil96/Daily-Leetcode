@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+| [3279-alice-and-bob-playing-flower-game](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3321-type-of-triangle) |
 | [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 ## Stack
