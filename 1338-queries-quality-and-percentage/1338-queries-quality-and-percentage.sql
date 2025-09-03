@@ -8,9 +8,7 @@ SELECT
     ,
     IFNULL(
         ROUND(
-            SUM(CASE 
-                    WHEN rating < 3 THEN 1
-                END) 
+            SUM(rating < 3) 
             / 
             COUNT(*) * 100, 
         2) 
