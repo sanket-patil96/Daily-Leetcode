@@ -3,15 +3,13 @@
 SELECT 
     query_name 
     ,ROUND(
-        SUM(rating / position) / COUNT(*), 2
+        AVG(rating / position), 2
     ) as quality
     ,
     IFNULL(
         ROUND(
-            SUM(rating < 3) 
-            / 
-            COUNT(*) * 100, 
-        2) 
+            AVG(rating < 3) * 100
+        , 2) 
     ,0) as poor_query_percentage
 FROM Queries
 GROUP BY query_name
