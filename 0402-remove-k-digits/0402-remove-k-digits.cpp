@@ -13,23 +13,22 @@ public:
 
         // create answer
         string ans = "";       // work like monotonic stack, store only in non-decreasing order from back side
-        int cnt = 0;        // count the removed elements
 
-        for(int i = 0; i < num.size(); i++) {
-            while(ans.size() && cnt < k && ans.back()-'0' > num[i]-'0') {
+        for(char c: num) {
+            while(ans.size() && k && ans.back() > c) {
                 ans.pop_back();
-                cnt++;
+                k--;
             }
 
-            if(ans.empty() && num[i] == '0')      continue;       // we don't want leading zeros, so don't push
-            ans.push_back(num[i]);
+            if(ans.empty() && c == '0')      continue;       // we don't want leading zeros, so don't push when there are no elements before
+            ans.push_back(c);
         }
 
         // after processing num check if still can we remove items
         // if yes then we now remove from last of num
-        while(ans.size() && cnt < k) {
+        while(ans.size() && k) {
             ans.pop_back();
-            cnt++;
+            k--;
         }
 
         return ans == "" ? "0" : ans;
