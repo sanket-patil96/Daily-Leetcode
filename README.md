@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
 | [1755-defuse-the-bomb](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1755-defuse-the-bomb) |
+| [1834-minimum-number-of-people-to-teach](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [1834-minimum-number-of-people-to-teach](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -415,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0455-assign-cookies) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1834-minimum-number-of-people-to-teach](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
