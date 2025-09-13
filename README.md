@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3396-valid-word](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3396-valid-word) |
 | [3617-find-the-original-typed-string-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3617-find-the-original-typed-string-i) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 ## Dynamic Programming
 |  |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Math
 |  |
 | ------- |
@@ -470,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1396-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Depth-First Search
 |  |
 | ------- |
