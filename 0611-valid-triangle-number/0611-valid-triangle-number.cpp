@@ -2,7 +2,6 @@ class Solution {
 public:
 
     // this will return no. of conmbinations that can get triangle
-
     int isPair(vector<int>& nums, int ind) {
         int i = 0;
         int j = ind - 1;
@@ -10,7 +9,7 @@ public:
 
         while(i < j) {
             if(nums[i] + nums[j] > nums[ind]) {
-                cnt += j-i;     // (j-i) between all will also be possible
+                cnt += j-i;     // (j-i) between all will also be possible (coz sorted nums)
                 j--;
             }
             else
