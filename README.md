@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1396-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1435-xor-queries-of-a-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1970-sorting-the-sentence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1970-sorting-the-sentence) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1264-maximum-number-of-words-you-can-type](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1524-string-matching-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -306,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
