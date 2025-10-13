@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<string> removeAnagrams(vector<string>& words) {
-        // just need to sort every word to see if its anagram or not
+        // we actually have to find the consecutive anagrams, so only check with i-1 for each i
 
         vector<string> ans;
         ans.push_back(words[0]);
