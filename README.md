@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3321-type-of-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3321-type-of-triangle) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3612-adjacent-increasing-subarrays-detection-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
