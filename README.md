@@ -800,6 +800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0596-classes-with-at-least-5-students](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0596-classes-with-at-least-5-students) |
 | [0619-biggest-single-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0619-biggest-single-number) |
 | [0620-not-boring-movies](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0620-not-boring-movies) |
+| [1135-customers-who-bought-all-products](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1135-customers-who-bought-all-products) |
 | [1161-project-employees-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1161-project-employees-i) |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1245-user-activity-for-the-past-30-days-i) |
 | [1292-immediate-food-delivery-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1292-immediate-food-delivery-ii) |
