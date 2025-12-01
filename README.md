@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3195-separate-black-and-white-balls](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3195-separate-black-and-white-balls) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Sorting
 |  |
 | ------- |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2887-sort-vowels-in-a-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2887-sort-vowels-in-a-string) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3321-type-of-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3321-type-of-triangle) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## String
 |  |
 | ------- |
@@ -402,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Bit Manipulation
 |  |
@@ -461,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3195-separate-black-and-white-balls](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3904-minimum-adjacent-swaps-to-alternate-parity](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3904-minimum-adjacent-swaps-to-alternate-parity) |
