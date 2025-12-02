@@ -1,47 +1,32 @@
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
-        // we use the monotonic Stack approach as for normal array 
-        // and as this is circular array, we have to store the left side values also 
-        // coz this can be the greater for last  few elements, 
-        // ex: [1,2,3,1,0] in this for last 2 values[1,0] there is [2, 1] are the next greater values
-        // so from left side we will only store the elements in increasing order (coz lesser won't useful coz previous are coming early so they can be immediate next greater in circular form for next values)
-        // and at last for the elements in stack, you use that leftMax array to find the next greater elements for each
-        // and as we have decreasing elements in stack, we don't required to start again from index 0 for leftMax, coz last top element in stack is lesser than the new top, so 
-        // we can find further elements from the last index in leftMax array
+        // approach 2:
+        // after first loop there might be some values for which i don't find next greater,
+        // but for them that not the end as array is circular, i again traverse the loop from start in same way
+        // but this time just need to find the greater vales, don't need to push others in stack
         
         int n = nums.size();
-        vector<int> ans(n, -1);
         stack<int> s;
-        vector<int> leftMax;
-
         s.push(0);
-        leftMax.push_back(nums[0]);
-
+        vector<int> ans(n, -1);
+        
         for(int i = 1; i < n; i++) {
             while(s.size() && nums[s.top()] < nums[i]) {
-                ans[s.top()] = nums[i];
+                ans[s.top()] = nums[i];        
                 s.pop();
             }
 
             s.push(i);
-            if(leftMax.back() < nums[i])
-                leftMax.push_back(nums[i]);
         }
 
-        // now check next circular greater values for the elements in the stack 
-        int j = 0;      // to track the left Max values 
-        int m = leftMax.size();
-
-        while(s.size()) {
-            while(j < m && leftMax[j] <= nums[s.top()])
-                j++;
-
-            if(j == m)
-                break;
-            
-            ans[s.top()] = leftMax[j];
-            s.pop();
+        // as array is circular, so to find circular next greater for remaining elements in stack (exp: last element of array will always be in stack after first iteration)
+        // but this time just find the greater value for stack elements, don't push any other element
+        for(int i = 0; i < n; i++) {
+            while(s.size() && nums[s.top()] < nums[i]) {
+                ans[s.top()] = nums[i];        
+                s.pop();
+            }
         }
 
         return ans;
