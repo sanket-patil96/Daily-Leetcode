@@ -1,41 +1,36 @@
 class Solution {
 public:
-    vector<int> asteroidCollision(vector<int>& asteroids) {
-        // insertion can happen if one of either 3 conditions matches
-        // stack is empty(),  || current astroid is moving left, || there is astroid moving right on top of stack
+    vector<int> asteroidCollision(vector<int>& arr) {
+        // another simple method:
+        // if +ve value comes push directly into back of answer array
+        // if -ve comes, check if last value is +ve if yes then explosion possibility, else push into answer array
 
-        int n = asteroids.size();
-        stack<int> s;
-
-        for(int i = n-1; i >= 0; i--) {
-            if(s.empty() || asteroids[i] < 0 || s.top() > 0) {
-                s.push(asteroids[i]);
-            }
-            // it will go in else case only if there is left moving asteroid on top of stack & current asteroid is moving Right
-            // means at collide time \U0001f4a5
+        vector<int> ans;
+        int n = arr.size();
+        
+        for(int i = 0; i < n; i++) {
+            // if +ve or (negative and empty array || if -ve but last asteroid also same -ve direction)
+            if(arr[i] > 0 || (ans.empty() || ans.back() < 0))
+                ans.push_back(arr[i]);
             else {
-                while(s.size() && s.top() < 0 && asteroids[i] > abs(s.top())) {
-                    s.pop();  // smaller top asteroid that moving left will explode
+                bool flag = true;        // if its false then current asteroid get destroyed!
+                
+                // check collision when -ve comes & previous asteroids are opposite direction
+                while(flag && ans.size() && ans.back() > 0) {
+                    if(abs(ans.back() < abs(arr[i])))
+                         ans.pop_back();
+                    else if(abs(ans.back() == abs(arr[i]))) {
+                        // both destroyed!
+                        ans.pop_back();
+                        flag = false;
+                    }
+                    else 
+                        flag = false;    // means current asteroid is destroyed
                 }
 
-                // now check if current asteroid is exploded or not, 
-                // if yes then there will be -ve value on top which is Strictly lesser than current asteroid
-                // also handle if top is -ve and they are equal then both exploid
-                if(s.size() && s.top() < 0 && abs(s.top()) == asteroids[i])
-                    s.pop();
-                else if(s.size() && s.top() < 0) 
-                    continue;           // top -ve asteroid remain as it is but current one exploded
-                else 
-                    s.push(asteroids[i]);    // means this is servived in collision
+                if(flag)
+                    ans.push_back(arr[i]);
             }
-        }
-
-        // now all elements remain in stack will not collide
-        vector<int> ans;
-
-        while(s.size()) {
-            ans.push_back(s.top());
-            s.pop();
         }
 
         return ans;
