@@ -1,37 +1,28 @@
 class Solution {
 public:
+
     int compareVersion(string version1, string version2) {
-        // from left to right, compare the integer values till the next seperation point('.')
-        // if v1 < v2 return -1 or 1, if both are equal then return 0
-        
-        int n = version1.size();
-        int m = version2.size();
 
-        while(version1.size() || version2.size()) {
-            // if string is at end, there is no '.' next, then find function retuns large value, so while taking 
-            // substring till seperation till gives entire remaining string, so no problem comes
-            int seperation1 = version1.find('.');
-            int seperation2 = version2.find('.');
-            int val1, val2;
+        while(!version1.empty() || !version2.empty()) {
+            int pos1 = version1.find('.');
+            int pos2 = version2.find('.');
 
-            // cout << "seperations: " << seperation1 << "-" << seperation2 << endl;
+            int revision1, revision2;
 
-            if(version1.size())       val1 = stoi(version1.substr(0, seperation1));
-            else                      val1 = 0;
+            // if no dot found, take whole string
+            if (pos1 == string::npos) pos1 = version1.size();
+            if (pos2 == string::npos) pos2 = version2.size();
 
-            if(version2.size())       val2 = stoi(version2.substr(0, seperation2));
-            else                      val2 = 0;
+             // extract number before dot (or end)
+            revision1 = version1.empty() ? 0 : stoi(version1.substr(0, pos1));
+            revision2 = version2.empty() ? 0 : stoi(version2.substr(0, pos2));
 
-            // cout << val1 << " v2: " << val2 << endl;
+            if(revision1 < revision2)       return -1;
+            else if(revision1 > revision2)  return 1;
 
-            if(val1 < val2) return -1;
-            if(val1 > val2) return 1;
-
-            // remove the checked part from versions
-            version1 = seperation1 == -1 ? "" : version1.substr(seperation1+1);
-            version2 = seperation2 == -1 ? "" : version2.substr(seperation2+1);
-
-            // cout << "versions: " << version1 << "-" << version2 << endl;
+            // cut off the processed part (skip the dot too if exists)
+            version1 = (pos1 < version1.size()) ? version1.substr(pos1 + 1) : "";
+            version2 = (pos2 < version2.size()) ? version2.substr(pos2 + 1) : "";
         }
 
         return 0;
