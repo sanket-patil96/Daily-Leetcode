@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0086-partition-list) |
 | [0088-merge-sorted-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0143-reorder-list) |
@@ -211,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0071-simplify-path) |
+| [0125-valid-palindrome](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0165-compare-version-numbers) |
