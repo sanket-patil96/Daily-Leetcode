@@ -8,11 +8,11 @@ public:
         int totalSum = 0;
 
         for(int i: nums) {
-            int divisors = 0;
-            int sum = 0;
+            int divisors = 1;       // initially 1 for the ith value itself its divisor
+            int sum = i;            // add current value
 
-            // ith value is *included
-            for(int d = 1; d <= i; d++) {
+            // only need to loop till square root of i, coz after that there will no value that can be divisor of ith value
+            for(int d = 1; d <= i/2; d++) {
                 if(i % d == 0) {
                     sum += d;
                     divisors++;
