@@ -16,19 +16,14 @@ public:
             sum += nums[i];
 
             // all elements should be distinct in current subarray so shrink till it happens
-            while(m[nums[i]] > 1) {
+            // also keep window size of only k, so shrink if its > k
+            while(m[nums[i]] > 1 || i-s+1 > k) {
                 m[nums[s]]--;
                 sum -= nums[s];
                 s++;
             }
 
-            // keep window size of only k, so shrink if its > k
-            if(i-s+1 > k) {
-                m[nums[s]]--;
-                sum -= nums[s];
-                s++;
-            }
-
+            
             // check the max sum, if window size is k
             if(i-s+1 == k)
                 maxSum = max(maxSum, sum);
