@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2841-maximum-sum-of-almost-unique-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2841-maximum-sum-of-almost-unique-subarray) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
@@ -352,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2402-meeting-rooms-iii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2841-maximum-sum-of-almost-unique-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2841-maximum-sum-of-almost-unique-subarray) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -536,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-defuse-the-bomb](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1755-defuse-the-bomb) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2841-maximum-sum-of-almost-unique-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2841-maximum-sum-of-almost-unique-subarray) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Counting
