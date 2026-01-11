@@ -4,7 +4,6 @@ public:
         // this problem can be divided into largest rectangle in histogram
         // we can built a histogram of current array with addition of top array of it
 
-
         int n = matrix.size();
         int m = matrix[0].size();
         int ans = 0;
@@ -13,7 +12,7 @@ public:
         vector<int> histogram(m, 0);        // initially all 0's for 0th array in matrix
 
         for(int i = 0; i < n; i++) {
-            // add current array with the previous histogram array, if ar[i] = 0 then keep 0 as it is without addition
+            // add current array with the previous histogram array, if ar[i] = 0 then keep 0 as it is without addition, coz 0 means there's no rectangle
             for(int j = 0; j < m; j++) {
                 if(matrix[i][j] == '0')
                     histogram[j] = 0;
