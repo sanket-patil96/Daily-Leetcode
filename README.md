@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3242-count-elements-with-maximum-frequency](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3321-type-of-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3321-type-of-triangle) |
+| [3453-separate-squares-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3453-separate-squares-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3453-separate-squares-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3453-separate-squares-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Bit Manipulation
