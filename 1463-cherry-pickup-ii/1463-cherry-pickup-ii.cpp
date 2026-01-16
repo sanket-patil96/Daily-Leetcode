@@ -3,10 +3,7 @@ public:
 
     int solve(int i, int j1, int j2, vector<vector<vector<int>>> &dp, vector<vector<int>>& grid) {
         // handle out of bound case
-        if((i < 0 || i >= grid.size()) || 
-           (j1 < 0 || j1 >= grid[0].size() || 
-            j2 < 0 || j2 >= grid[0].size())
-        )
+        if(j1 < 0 || j1 >= grid[0].size() || j2 < 0 || j2 >= grid[0].size())
             return -1e8;
 
         if(dp[i][j1][j2] != -1)
@@ -15,10 +12,9 @@ public:
         // if its the on last row (only check 2nd robot, coz when 1 reaches then only 2 reach so 1st robot must be on last row already)
         if(i == grid.size()-1) {
             // if they both on same index then only count 1 time, else get sum
-            if(j1 == j2)   // they move to new row at same time so, no need to check for similar row
-                return grid[i][j1];
-            else
-                return grid[i][j1] + grid[i][j2];
+            // they move to new row at same time so, no need to check for similar row
+            if(j1 == j2) return grid[i][j1];
+            else return grid[i][j1] + grid[i][j2];
         }
 
         // for every move of robot-1 there are 3 choices for robot-2
