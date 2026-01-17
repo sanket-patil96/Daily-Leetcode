@@ -1,29 +1,8 @@
 class Solution {
 public:
 
-    bool solve(vector<int> &nums, vector<vector<int>> &dp, int i, int target) {
-        if(target == 0)
-            return true;
-
-        if(i == 0)    
-            return nums[0] == target;       // so reducing with nums[0] target becomes 0
-
-        if(dp[i][target] != -1)
-            return dp[i][target];
-
-        bool noTake = solve(nums, dp, i-1, target);
-        bool take = false;
-        
-        if(nums[i] <= target)
-            take = solve(nums, dp, i-1, target - nums[i]);
-
-        return dp[i][target] = (take || noTake);
-    }
-
     bool canPartition(vector<int>& nums) {
-        // we have to make 2 parts, so we have to find the part which can give the sum half of total
-        // get the sum of array
-        // then apply take it or not logic on every element
+        // tabulation same as subset sub (GFG): 
         
         int n = nums.size();
         int sum = accumulate(nums.begin(), nums.end(), 0);
@@ -34,10 +13,33 @@ public:
 
         int target = sum/2;
 
-        // use memoization to avoid overlapping sub-problems, T/C: O(N*Target)
+        // use tabulation, T/C: O(N*Target)  space:O(N*target)
         // changing states are 2, index & target, i can go upto n, target is 0 to target
-        vector<vector<int>> dp(n+1, vector<int> (target+1, -1));
+        vector<vector<bool>> dp(n+1, vector<bool> (target+1, false));
 
-        return solve(nums, dp, n-1, target);
+        // base case creation
+        // where target become 0
+        for(int i = 0; i < n; i++)
+            dp[i][0] = true;
+
+        // 2nd case: only true when last element is equal target (if nums[0] <= target)
+        if(nums[0] <= target)
+            dp[0][nums[0]] = true;
+        
+        // convert states into loops
+        for(int i = 1; i < n; i++) {
+            for(int k = 1; k <= target; k++) {
+                // copy recurance
+                bool noTake = dp[i-1][k];
+                bool take = false;
+                
+                if(nums[i] <= k)
+                    take = dp[i-1][k - nums[i]];
+
+                dp[i][k] = (take || noTake);
+            }
+        }
+
+        return dp[n-1][target];
     }
 };
