@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-defuse-the-bomb](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1755-defuse-the-bomb) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1929-concatenation-of-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1929-concatenation-of-array) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2015-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2015-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2047-find-a-peak-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -782,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0735-asteroid-collision) |
 | [1552-build-an-array-with-stack-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [1929-concatenation-of-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1929-concatenation-of-array) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
