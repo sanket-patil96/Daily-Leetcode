@@ -1,20 +1,23 @@
 class Solution {
 public:
     int countPartitions(vector<int>& nums) {
-        // first get the suffix sum of nums
-        int n = nums.size();
-        vector<int> suff(n);
-        
-        for(int i = n-2; i >= 0; i--) {
-            suff[i] = suff[i+1] + nums[i+1];
-        }
+        // first get the total sum, and maintain prefix sum, 
+        // prefix sum is of subarray[0..i], and total-prefixSum = subarry[i+1,..n-1]
+        // difference of both partition is: pref - (total-pref), if its even then count++;
 
+        int n = nums.size();
+        int total = 0;
+        
+        for(int i = 0; i < n; i++)
+            total += nums[i];
+        
         int cnt = 0;
         int pref = 0;
+
         for(int i = 0; i < n-1; i++) {
             pref += nums[i];
 
-            if((pref + suff[i]) % 2 == 0)
+            if((pref + total-pref) % 2 == 0)
                 cnt++;
         }
 
