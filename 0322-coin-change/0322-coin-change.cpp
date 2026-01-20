@@ -1,50 +1,50 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        // need memoization to avoid TLE
-        // changing states are index & amount, so 2D DP required
-        // ind can go from 0 to n-1, and amount can go from 0 -> amount
-        // so create dp of size: DP[n][amount+1] 
-        // time: O(n*amount)  space: O(n*amount)
+        // using Tabulation
+        // define base case
+        // convert states into loops
+        // copy recurrance
 
         int n = coins.size();
 
-        vector<vector<int>> dp(n, vector<int> (amount+1, -1));
-        int ans = solve(n-1, coins, amount, dp);
+        vector<vector<int>> dp(n, vector<int> (amount+1, 1e8));
+        
+        // 1st base case: when amount becomes 0, return 0
+        // amount can become 0 at any index
+        for(int i = 0; i < n; i++)
+            dp[i][0] = 0;
 
-        // if amount can't be reduced to 0, then both take & noTake call return max(1e8, 1e8)
-        return ans == 1e8 ? -1 : ans;
-    }
+        // 2nd base case: at i = 0, return no.of coins required to reduce amount to 0, only if possible
 
-    int solve(int i, vector<int> &coins, int amount, vector<vector<int>> &dp) {
-        // stop when amount becomes 0
-        if(amount == 0)
-            return 0;
+        // this was in my mind, as from previous solved questions, but here is slight change
+        // if(coins[0] != 0 && amount % coins[0] == 0)
+        //     dp[0][amount] = amount / coins[0];
 
-        if(i == 0) {
-            // when there still amount remaining at last index, we have only option of using coins[0]
-            // Only when if amount can be reduced to 0 by adding coins[0],
-            // so coins required  of coins[0] to make amount to 0, are (amount / coins[0])
-            if(amount % coins[0] == 0)
-                return amount / coins[0];      
+        // we have to mention no.of coins required of coins[0] for every amount i.e 0 <= amount
+        // similar base case change as i used in 0/1 knapsack, as set val[0] for every dp[0][w] when w >= wt[0]
+        if(coins[0] != 0)       // to avoid division/modulo by 0 error
+            for(int a = 0; a <= amount; a++)
+                if(a % coins[0] == 0)
+                    dp[0][a] = a / coins[0];
 
-            // IF amount can't be reduced to 0, return max
-            return 1e8; // to avoid error of signed integer overflow: 2147483647 + 1 on take call
+
+        // states are index & amount, i starts from 1 as i == 0 covered in base case
+        for(int i = 1; i < n; i++) {
+            for(int a = 0; a <= amount; a++) {
+                // copy recurrance from recursion solution:
+
+                int take = 1e8;    
+                if(coins[i] <= a) 
+                    take = dp[i][a-coins[i]] + 1;
+
+                int noTake = dp[i-1][a];
+
+                dp[i][a] = min(take, noTake);
+            }
         }
 
-        if(dp[i][amount] != -1)
-            return dp[i][amount];
-
-        // keep taking current coin, (infinite supply of each coins)
-        // but only when amount >= coins[i]
-        int take = 1e8;    // SET TO MAX coz we are minimizing answer, so when take is wrong, then noTake should be selected
-        if(coins[i] <= amount) 
-            take = solve(i, coins, amount-coins[i], dp) + 1;        // +1 as we used this coin
-
-        // don't use current coin
-        int noTake = solve(i-1, coins, amount, dp);    
-
-        // we need minimum coins that being used
-        return dp[i][amount] = min(take, noTake);
+        int ans = dp[n-1][amount];
+        return ans == 1e8 ? -1 : ans;
     }
 };
