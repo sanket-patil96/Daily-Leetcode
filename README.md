@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3321-type-of-triangle) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3453-separate-squares-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3453-separate-squares-i) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -377,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2841-maximum-sum-of-almost-unique-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2841-maximum-sum-of-almost-unique-subarray) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Math
@@ -713,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Binary Tree
 |  |
@@ -758,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Recursion
 |  |
 | ------- |
@@ -779,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0460-lfu-cache) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -804,6 +809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2402-meeting-rooms-iii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2402-meeting-rooms-iii) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Brainteaser
 |  |
@@ -928,6 +934,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0895-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0895-maximum-frequency-stack) |
 | [0931-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-maximum-frequency-stack) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Geometry
 |  |
