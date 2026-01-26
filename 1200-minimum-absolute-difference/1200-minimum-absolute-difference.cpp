@@ -14,15 +14,11 @@ public:
 
         // now find the pairs
         vector<vector<int>> ans;
-        for(int i = 0; i < arr.size(); i++) {
-            // don't need to travel whole array, stop when current pair's diff > minDiff
-            for(int j = i+1; j < arr.size(); j++) {
-                int diff = abs(arr[i]-arr[j]);
-                if(diff == minDiff)
-                    ans.push_back({arr[i], arr[j]});
-                if(diff > minDiff)
-                    break;
-            }
+
+        for(int i = 0; i < arr.size()-1; i++) {
+            // min diff can only be found in adjacents, as we have sorted the array
+            if(abs(arr[i]-arr[i+1]) == minDiff)
+                ans.push_back({arr[i], arr[i+1]});
         }
 
         return ans;
