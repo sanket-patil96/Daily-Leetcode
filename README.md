@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1036-rotting-oranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1063-best-sightseeing-pair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0611-valid-triangle-number) |
 | [0647-palindromic-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0647-palindromic-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [1018-largest-perimeter-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1018-largest-perimeter-triangle) |
+| [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1200-minimum-absolute-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -260,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0647-palindromic-substrings) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1078-remove-outermost-parentheses](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1078-remove-outermost-parentheses) |
 | [1092-shortest-common-supersequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -331,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0943-sum-of-subarray-minimums](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1063-best-sightseeing-pair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1092-shortest-common-supersequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
@@ -388,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
