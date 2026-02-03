@@ -7,41 +7,31 @@ public:
         cuts.push_back(0);
         cuts.push_back(n);
         sort(cuts.begin(), cuts.end());
+        
+        // time: O(C^3)    space: O(c*c) + auxilary recursion stack space
 
-        // now convert to tabulation:  Time: O(c^3)  space: O(c^2)
-        // define base case
-        // convert states into loops
-        // copy recurrance
-        // return the state of initial recursion call
+        vector<vector<long long>> dp(c+2, vector<long long> (c+2, -1));  // +2 coz added 2 elements in original size 'c'
 
-        vector<vector<long long>> dp(c+2, vector<long long> (c+2, 0)); 
-
-        // base case: i > j return 0
-        for(int i = 0; i < c+2; i++) 
-            for(int j = 0; j < c+2; j++) 
-                if(i > j) dp[i][j] = 0;
-
-        // states -> loops
-        for(int i = c; i >= 1; i--) {               // start from opposite of top down approach
-            for(int j = 1; j <= c; j++) {           // opposite of topdown approach
-                // copy recurrance:
-
-                if(i > j)       continue;           // base case handled it
-
-                long long mini = LLONG_MAX;
-
-                for(int k = i; k <= j; k++) {
-                    long long cost = cuts[j+1] - cuts[i-1]
-                                    + dp[i][k-1]
-                                    + dp[k+1][j];
-                    mini = min(mini, cost);
-                }
-
-                dp[i][j] = mini;
-            }
-        }
-
-        return dp[1][c];
+        return solve(1, c, cuts, dp);   // c is at 2nd last index of new cuts array (so j+1 won't be out of bounds)
     }
 
+    long long solve(int i, int j, vector<int> &cuts, vector<vector<long long>> &dp) {
+        if(i > j)
+            return 0;
+
+        if (dp[i][j] != -1)
+            return dp[i][j];
+
+        long long mini = LLONG_MAX;
+
+        // cuts can start from any point
+        for(int k = i; k <= j; k++) {
+            long long cost = cuts[j+1] - cuts[i-1]
+                            + solve(i, k-1, cuts, dp)
+                            + solve(k+1, j, cuts, dp);
+            mini = min(mini, cost);
+        }
+
+        return dp[i][j] = mini;
+    }
 };
