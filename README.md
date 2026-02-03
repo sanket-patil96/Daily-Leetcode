@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+| [3637-trionic-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3637-trionic-array-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
