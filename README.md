@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1524-string-matching-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1552-build-an-array-with-stack-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1656-count-good-triplets](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1656-count-good-triplets) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1970-sorting-the-sentence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1970-sorting-the-sentence) |
 | [2054-two-best-non-overlapping-events](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2054-two-best-non-overlapping-events) |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1463-cherry-pickup-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1463-cherry-pickup-ii) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2054-two-best-non-overlapping-events](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
