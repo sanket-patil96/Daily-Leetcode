@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0739-daily-temperatures) |
 | [0830-largest-triangle-area](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0830-largest-triangle-area) |
+| [0931-minimum-falling-path-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
@@ -345,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0931-minimum-falling-path-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1063-best-sightseeing-pair](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1063-best-sightseeing-pair) |
@@ -544,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0931-minimum-falling-path-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
 | [1036-rotting-oranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
