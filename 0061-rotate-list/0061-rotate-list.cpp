@@ -13,38 +13,38 @@ public:
     ListNode* rotateRight(ListNode* head, int k) {
         // first we get the min rotation if k is greater than size of list
         // i.e K%n, coz k > n means full rotation + some rotation, so we get that some rotations by formula directly
+        // then move the fast pointer k nodes ahead, then move both fast & slow by 1 node till fast reaches end node
+        // then cut list from slow and assign newHead as slow->next, and tail of list's next = head (fast->next = head)
 
         if(!head || !head->next || k == 0)
             return head;
+        
+        ListNode *slow = head, *fast = head;
 
-        ListNode *curr = head, *tail = NULL;
-        int n = 0;
-
-        while(curr) {
-            if(!curr->next)  tail = curr;
-            curr = curr->next;
+        int n = 0;   // get the size of list
+        while(slow) {
+            slow = slow->next;
             n++;
         }
 
-        // means k == n means no rotations required
-        k = k % n;
-        if(k == 0)  
+        k = k % n;   // get the size of k according to n (avoid overcounting)
+        if(k == 0)
             return head;
-
-        ListNode *fast = head, *slow = head;
-
-        // move fast for k times
-        int c = 1;
-        while(c < n-k) {
+        
+        slow = head;
+        
+        while(k--) 
             fast = fast->next;
-            c++;
+
+        while(fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next;
         }
 
-        // link both list parts (before rotation and after rotation parts)
-        ListNode *newHead = fast->next;
-        fast->next = NULL;
-        tail->next = head;
-        
+        ListNode *newHead = slow->next;
+        slow->next = NULL;
+
+        fast->next = head;
         return newHead;
     }
 };
