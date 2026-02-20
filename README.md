@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0611-valid-triangle-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
+| [0761-special-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1200-minimum-absolute-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1200-minimum-absolute-difference) |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0647-palindromic-substrings) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
+| [0761-special-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0761-special-binary-string) |
 | [0926-flip-string-to-monotone-increasing](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0926-flip-string-to-monotone-increasing) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
@@ -865,6 +867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0190-reverse-bits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0761-special-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0761-special-binary-string) |
 ## Merge Sort
 |  |
 | ------- |
