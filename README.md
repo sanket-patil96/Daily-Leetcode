@@ -461,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0326-power-of-three](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0830-largest-triangle-area](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0830-largest-triangle-area) |
 | [1018-largest-perimeter-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1236-n-th-tribonacci-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1236-n-th-tribonacci-number) |
@@ -545,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0338-counting-bits) |
 | [0476-number-complement](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0476-number-complement) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1435-xor-queries-of-a-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
