@@ -293,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1524-string-matching-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
@@ -866,6 +867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0326-power-of-three) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2573-remove-nodes-from-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2573-remove-nodes-from-linked-list) |
 ## Doubly-Linked List
@@ -896,6 +898,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0067-add-binary) |
 | [0735-asteroid-collision](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0735-asteroid-collision) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1552-build-an-array-with-stack-operations](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1552-build-an-array-with-stack-operations) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
