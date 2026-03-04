@@ -13,21 +13,16 @@ public:
         int m = mat[0].size();
         vector<int> rows(n, 0), cols(m, 0);
 
-        // count 1's in each row
+        // precompute count 1's in each row & col
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < m; j++) {
-                if(mat[i][j] == 1)
+                if(mat[i][j] == 1) {
                     rows[i]++;
+                    cols[j]++;
+                }
             }
         }
 
-        // count 1's in each col
-        for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
-                if(mat[j][i] == 1)           // j is for row here, so access as [j][i]
-                    cols[i]++;
-            }
-        }
 
         // now start checking for special positions
         int ans = 0;
