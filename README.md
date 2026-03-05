@@ -300,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1885-count-number-of-homogenous-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1885-count-number-of-homogenous-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
