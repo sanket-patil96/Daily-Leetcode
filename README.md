@@ -388,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2262-solving-questions-with-brainpower](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2562-count-ways-to-build-good-strings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2562-count-ways-to-build-good-strings) |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -647,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2483-minimum-penalty-for-a-shop](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3432-count-partitions-with-even-sum-difference) |
 ## Sliding Window
 |  |
