@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0799-champagne-tower](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0799-champagne-tower) |
 | [0926-flip-string-to-monotone-increasing](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0926-flip-string-to-monotone-increasing) |
 | [0931-minimum-falling-path-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-minimum-falling-path-sum) |
@@ -715,6 +716,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
@@ -744,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0971-shortest-bridge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0971-shortest-bridge) |
@@ -828,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1753-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1753-path-with-minimum-effort) |
@@ -981,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -1094,4 +1099,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0210-course-schedule-ii) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
