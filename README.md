@@ -282,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0227-basic-calculator-ii) |
 | [0402-remove-k-digits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0409-longest-palindrome) |
+| [0433-minimum-genetic-mutation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0516-longest-palindromic-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0583-delete-operation-for-two-strings) |
@@ -432,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0229-majority-element-ii) |
 | [0409-longest-palindrome](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0409-longest-palindrome) |
+| [0433-minimum-genetic-mutation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0460-lfu-cache](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
@@ -755,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0210-course-schedule-ii) |
 | [0322-coin-change](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0322-coin-change) |
+| [0433-minimum-genetic-mutation](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
