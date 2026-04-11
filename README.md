@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0739-daily-temperatures) |
+| [0752-open-the-lock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0752-open-the-lock) |
 | [0827-making-a-large-island](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0827-making-a-large-island) |
 | [0830-largest-triangle-area](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0830-largest-triangle-area) |
 | [0931-minimum-falling-path-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-minimum-falling-path-sum) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0657-robot-return-to-origin) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0752-open-the-lock) |
 | [0761-special-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0761-special-binary-string) |
 | [0926-flip-string-to-monotone-increasing](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0926-flip-string-to-monotone-increasing) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
+| [0752-open-the-lock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0752-open-the-lock) |
 | [0895-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0895-maximum-frequency-stack) |
 | [0931-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -763,6 +766,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
+| [0752-open-the-lock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0752-open-the-lock) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0820-find-eventual-safe-states) |
