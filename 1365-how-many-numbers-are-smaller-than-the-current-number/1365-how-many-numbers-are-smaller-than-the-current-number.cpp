@@ -1,28 +1,33 @@
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-        // better approach: time: O(N logN) space: O(N)
-        // sort array and count previous numbers for current index
+        // best optimization using constraints
+        // Frequency Count: We iterate through nums and increment the count at arr[nums[i]].
+        // Example: If nums = [8,1,2,2,3], then arr[2] will be 2 because '2' appears twice.
+        // Prefix Sum: We iterate through the frequency array and add the value of the previous index to the current one.
+        // Logic: After this, arr[i] contains the total count of all numbers less than or equal to i.
+        // Mapping Results: For each number in the original nums array, the count of elements smaller than it is stored at arr[nums[i]-1].
+        // Edge Case: For nums[i] == 0, there are no numbers smaller than it, so we simply push 0.
 
-        // presearve the original ordering
-        vector<int> original = nums;
+        // Complexity
+        // Time complexity: O(N)
+        // Space complexity: O(1)
 
-        sort(nums.begin(), nums.end());
-
+        int arr[101] = {0};
         vector<int> ans;
-        int n = nums.size();
-        unordered_map<int, int> mp;     // map numbers with its lesser count
 
-        for(int i = 0; i < n; i++) {
-            if(i != 0 && nums[i] == nums[i-1])      // if previous number is same as current then don't count that as less for current
-                continue;
+        for (int a = 0; a < nums.size(); a++)
+            arr[nums[a]]++;
+
+        for (int a = 1; a < 101; a++)
+            arr[a] += arr[a - 1];
+
+        for (int a = 0; a < nums.size(); a++) {
+            if (nums[a] == 0)
+                ans.push_back(0);
             else
-                mp[nums[i]] = i;
+                ans.push_back(arr[nums[a] - 1]);
         }
-
-        for(int i: original)
-            ans.push_back(mp[i]);
-
         return ans;
     }
 };
