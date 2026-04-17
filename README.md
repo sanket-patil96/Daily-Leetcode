@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3637-trionic-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3637-trionic-array-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3904-minimum-adjacent-swaps-to-alternate-parity](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3904-minimum-adjacent-swaps-to-alternate-parity) |
@@ -486,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3713-longest-balanced-substring-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3713-longest-balanced-substring-i) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Math
@@ -528,6 +530,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3321-type-of-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3321-type-of-triangle) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3432-count-partitions-with-even-sum-difference) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 ## Stack
 |  |
