@@ -1156,6 +1156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [0827-making-a-large-island](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1020-number-of-enclaves) |
