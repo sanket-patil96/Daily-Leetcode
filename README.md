@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0752-open-the-lock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0752-open-the-lock) |
 | [0827-making-a-large-island](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0827-making-a-large-island) |
 | [0830-largest-triangle-area](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0830-largest-triangle-area) |
+| [0846-hand-of-straights](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0846-hand-of-straights) |
 | [0931-minimum-falling-path-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [0761-special-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0761-special-binary-string) |
+| [0846-hand-of-straights](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0846-hand-of-straights) |
 | [1018-largest-perimeter-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1200-minimum-absolute-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1200-minimum-absolute-difference) |
@@ -466,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0752-open-the-lock) |
+| [0846-hand-of-straights](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0846-hand-of-straights) |
 | [0895-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0895-maximum-frequency-stack) |
 | [0931-maximum-frequency-stack](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
@@ -677,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0611-valid-triangle-number) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0846-hand-of-straights](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0846-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1018-largest-perimeter-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
