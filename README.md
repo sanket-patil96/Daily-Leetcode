@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
 | [1200-minimum-absolute-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
@@ -475,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
@@ -676,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1018-largest-perimeter-triangle](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1018-largest-perimeter-triangle) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
