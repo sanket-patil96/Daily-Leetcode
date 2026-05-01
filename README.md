@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1267-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
@@ -653,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1267-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1396-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -748,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0229-majority-element-ii) |
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1267-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1396-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -783,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1073-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1073-number-of-enclaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1267-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1300-critical-connections-in-a-network](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1300-critical-connections-in-a-network) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
@@ -825,6 +829,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1117-as-far-from-land-as-possible](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1117-as-far-from-land-as-possible) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1267-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1376-time-needed-to-inform-all-employees) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1396-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -1192,6 +1197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1020-number-of-enclaves) |
+| [1267-count-servers-that-communicate](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1631-path-with-minimum-effort) |
