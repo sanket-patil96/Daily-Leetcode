@@ -1,11 +1,11 @@
 class Solution {
 public:
     vector<long long> distance(vector<int>& nums) {
-        // optimised from editorial
-        
+        // same approach as: 1685. Sum of Absolute Differences in a Sorted Array
+
         int n = nums.size();
         unordered_map<int, vector<int>> groups;
-        
+
         for (int i = 0; i < n; i++) {
             groups[nums[i]].push_back(i);
         }
@@ -15,12 +15,18 @@ public:
             const auto& group = p.second;
             long long total = accumulate(group.begin(), group.end(), 0LL);
             long long prefixTotal = 0;
+
             for (int i = 0; i < group.size(); i++) {
-                res[group[i]] =
-                    total - prefixTotal * 2 + group[i] * (2 * i - group.size());
+                long long suffTotal = (total - prefixTotal - group[i]);
+                long long leftSum = ((long long)group[i] * i) - prefixTotal;
+                long long rightSum = suffTotal - ((long long)group[i] * (group.size()-1 - i));
+                
+                res[group[i]] = leftSum + rightSum;
+
                 prefixTotal += group[i];
             }
         }
+
         return res;
     }
 };
