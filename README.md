@@ -312,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0752-open-the-lock) |
 | [0761-special-binary-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0761-special-binary-string) |
+| [0796-rotate-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0796-rotate-string) |
 | [0926-flip-string-to-monotone-increasing](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0926-flip-string-to-monotone-increasing) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1048-longest-string-chain](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1048-longest-string-chain) |
@@ -1080,6 +1081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0796-rotate-string](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0796-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
