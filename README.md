@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2841-maximum-sum-of-almost-unique-subarray](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2841-maximum-sum-of-almost-unique-subarray) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2463-minimum-total-distance-traveled](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2463-minimum-total-distance-traveled) |
 | [2562-count-ways-to-build-good-strings](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2562-count-ways-to-build-good-strings) |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 ## Backtracking
 |  |
