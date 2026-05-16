@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0496-next-greater-element-i) |
+| [0502-ipo](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0502-ipo) |
 | [0503-next-greater-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0229-majority-element-ii) |
 | [0368-largest-divisible-subset](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0455-assign-cookies) |
+| [0502-ipo](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0502-ipo) |
 | [0594-longest-harmonious-subsequence](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0611-valid-triangle-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0611-valid-triangle-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
@@ -683,6 +685,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0409-longest-palindrome) |
 | [0455-assign-cookies](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0455-assign-cookies) |
+| [0502-ipo](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0502-ipo) |
 | [0611-valid-triangle-number](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0611-valid-triangle-number) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0846-hand-of-straights](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0846-hand-of-straights) |
@@ -915,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0502-ipo](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0502-ipo) |
 | [0744-network-delay-time](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0744-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanket-patil96/Daily-Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
